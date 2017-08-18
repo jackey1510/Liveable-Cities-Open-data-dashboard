@@ -1,0 +1,74 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "mongo"
+  },
+  "AccessToken": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "mongo",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "HeathMedical": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "LifeExpectancy": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "AccessGP": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Hospital": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "CancerWaitTime": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Anxiety": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "GPex": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "MaleLifeExpectancy": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "FemaleLifeExpectancy": {
+    "dataSource": "mongo",
+    "public": true
+  }
+}
