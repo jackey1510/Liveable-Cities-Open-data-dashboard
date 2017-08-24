@@ -1,19 +1,21 @@
 {
-  "name": "AccessGP",
-  "plural": "GPAccess",
-  "base": "PersistedModel",
+  "name": "user",
+  "base": "User",
   "idInjection": true,
-  "options": {
-    "validateUpsert": true
-  },
-  "properties": {
-    "Year": {
-      "type": "string",
-      "required": true
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "projects": {
+      "type": "hasMany",
+      "model": "project",
+      "foreignKey": "ownerId"
+    },
+    "teams": {
+      "type": "hasMany",
+      "model": "team",
+      "foreignKey": "ownerId"
     }
   },
-  "validations": [],
-  "relations": {},
   "acls": [
     {
       "accessType": "WRITE",

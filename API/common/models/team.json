@@ -1,19 +1,25 @@
 {
-  "name": "AccessGP",
-  "plural": "GPAccess",
+  "name": "team",
   "base": "PersistedModel",
   "idInjection": true,
-  "options": {
-    "validateUpsert": true
-  },
   "properties": {
-    "Year": {
+    "ownerId": {
+      "type": "string",
+      "required": true
+    },
+    "memberId": {
       "type": "string",
       "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "members": {
+      "type": "hasMany",
+      "model": "user",
+      "foreignKey": "memberId"
+    }
+  },
   "acls": [
     {
       "accessType": "WRITE",

@@ -14,7 +14,8 @@
     ]
   },
   "User": {
-    "dataSource": "mongo"
+    "dataSource": "mongo",
+    "public": false
   },
   "AccessToken": {
     "dataSource": "mongo",
@@ -69,6 +70,18 @@
   },
   "FemaleLifeExpectancy": {
     "dataSource": "mongo",
+    "public": true
+  },
+  "user": {
+    "dataSource": "db",
+    "public": true
+  },
+  "team": {
+    "dataSource": "db",
+    "public": false
+  },
+  "project": {
+    "dataSource": "db",
     "public": true
   }
 }
