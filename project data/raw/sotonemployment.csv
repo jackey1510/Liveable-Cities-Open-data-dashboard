@@ -1,0 +1,62 @@
+
+"annual population survey"
+"ONS Crown Copyright Reserved [from Nomis on 5 July 2017]"
+"Analysis   :","variable"
+"Confidence :","95% confidence interval of percent figure (+/-)"
+"Date       :","Jan 2016-Dec 2016"
+
+"Variable","Numerator","ualad09:Southampton","Conf","Denominator","K03000001","Numerator","gor:South East","Conf"
+ ,"Denominator","E06000045","Numerator","country:Great Britain","Conf","Denominator","E12000008",""
+
+"Economic activity rate - aged 16-64",128100,169700,75.5,2.6,31022800,39850200,77.8,0.2,4482600,5535400,81.0,0.5
+"Employment rate - aged 16-64",121200,169700,71.4,2.7,29489300,39850200,74.0,0.2,4298000,5535400,77.6,0.6
+"% aged 16-64 who are employees",108800,169700,64.1,2.9,25133600,39850200,63.1,0.2,3615200,5535400,65.3,0.7
+"% aged 16-64 who are self employed",12100,169700,7.1,1.6,4212600,39850200,10.6,0.1,668600,5535400,12.1,0.5
+"Unemployment rate - aged 16-64",6900,128100,5.4,1.6,1533500,31022800,4.9,0.1,184600,4482600,4.1,0.3
+"Unemployment rate - aged 16+",7000,131500,5.3,1.5,1551600,32199900,4.8,0.1,188400,4680200,4.0,0.3
+"% who are economically inactive - aged 16-64",41500,169700,24.5,2.6,8827400,39850200,22.2,0.2,1052700,5535400,19.0,0.5
+"% of economically inactive who want a job",13900,41500,33.4,5.8,2113600,8827400,23.9,0.4,275800,1052700,26.2,1.4
+"% of economically inactive who do not want a job",27700,41500,66.6,5.8,6713800,8827400,76.1,0.4,776900,1052700,73.8,1.4
+"Economic activity rate males - aged 16-64",68900,89000,77.4,3.5,16465400,19799500,83.2,0.3,2369600,2747100,86.3,0.7
+"Employment rate males - aged 16-64",66200,89000,74.4,3.7,15634500,19799500,79.0,0.3,2269800,2747100,82.6,0.8
+"% of males aged 16-64 who are employees",57800,89000,65.0,4.0,12758900,19799500,64.4,0.3,1830700,2747100,66.6,0.9
+"% of males aged 16-64 who are self employed",8200,89000,9.3,2.5,2807000,19799500,14.2,0.2,431700,2747100,15.7,0.7
+"Unemployment rate males - aged 16-64",2700,68900,3.9,1.9,830900,16465400,5.0,0.2,99900,2369600,4.2,0.4
+"Unemployment rate males - aged 16+",2800,71100,3.9,1.8,840700,17176000,4.9,0.2,101700,2491700,4.1,0.4
+"% of  males who are economically inactive - aged 16-64",20100,89000,22.6,3.5,3334100,19799500,16.8,0.3,377500,2747100,13.7,0.7
+"% of economically inactive males who want a job",6100,20100,30.5,8.5,863400,3334100,25.9,0.7,101500,377500,26.9,2.3
+"% of economically inactive males who do not want a job",14000,20100,69.5,8.5,2470700,3334100,74.1,0.7,276000,377500,73.1,2.3
+"Economic activity rate females - aged 16-64",59200,80700,73.4,3.9,14557400,20050700,72.6,0.3,2113000,2788300,75.8,0.8
+"Employment rate females - aged 16-64",55000,80700,68.2,4.1,13854800,20050700,69.1,0.3,2028200,2788300,72.7,0.9
+"% of females aged 16-64 who are employees",51000,80700,63.2,4.2,12374700,20050700,61.7,0.3,1784500,2788300,64.0,0.9
+"% of females aged 16-64 who are self employed",3900,80700,4.8,1.9,1405600,20050700,7.0,0.2,236900,2788300,8.5,0.5
+"Unemployment rate females - aged 16-64",4200,59200,7.1,2.6,702600,14557400,4.8,0.2,84800,2113000,4.0,0.4
+"Unemployment rate females - aged 16+",4200,60400,7.0,2.6,710900,15023900,4.7,0.2,86800,2188400,4.0,0.4
+"% of females who are economically inactive - aged 16-64",21400,80700,26.6,3.9,5493300,20050700,27.4,0.3,675200,2788300,24.2,0.8
+"% of economically inactive females who want a job",7700,21400,36.0,8.1,1250200,5493300,22.8,0.5,174300,675200,25.8,1.7
+"% of economically inactive females who do not want a job",13700,21400,64.0,8.1,4243100,5493300,77.2,0.5,500900,675200,74.2,1.7
+"% all in employment who are - 1: managers, directors and senior officials (SOC2010)",9600,124500,7.7,1.9,3254100,30648300,10.6,0.2,534900,4491700,11.9,0.5
+"% all in employment who are - 2: professional occupations (SOC2010)",24700,124500,19.8,2.8,6222900,30648300,20.3,0.2,1006400,4491700,22.4,0.6
+"% all in employment who are - 3: associate prof & tech occupations (SOC2010)",12900,124500,10.3,2.1,4400100,30648300,14.4,0.2,688900,4491700,15.3,0.6
+"% all in employment who are - 4: administrative and secretarial occupations (SOC2010)",12700,124500,10.2,2.1,3127600,30648300,10.2,0.2,461000,4491700,10.3,0.5
+"% all in employment who are - 5: skilled trades occupations (SOC2010)",12400,124500,9.9,2.1,3168200,30648300,10.3,0.2,462600,4491700,10.3,0.5
+"% all in employment who are - 6: caring, leisure and other service occupations (SOC2010)",11400,124500,9.2,2.0,2802200,30648300,9.1,0.2,411300,4491700,9.2,0.4
+"% all in employment who are - 7: sales and customer service occupations (SOC2010)",10800,124500,8.7,2.0,2313700,30648300,7.5,0.1,307200,4491700,6.8,0.4
+"% all in employment who are - 8: process, plant and machine operatives (SOC2010)",9200,124500,7.4,1.8,1960000,30648300,6.4,0.1,215500,4491700,4.8,0.3
+"% all in employment who are - 9: elementary occupations (SOC2010)",20500,124500,16.4,2.6,3278800,30648300,10.7,0.2,395500,4491700,8.8,0.4
+"aged 16-64 employment rate - ethnic minority",15000,27000,55.4,12.0,3646000,5705500,63.9,1.0,360600,524700,68.7,2.9
+"16+ unemployment rate - ethnic minority",1800,16800,10.8,9.5,335600,4029500,8.3,0.7,28300,394500,7.2,1.9
+"% of  ethnic minority aged 16-64 who are economically inactive",10300,27000,37.9,11.7,1725200,5705500,30.2,1.0,135900,524700,25.9,2.8
+"% with NVQ4+ - aged 16-64",59800,169300,35.3,2.9,15190600,39741400,38.2,0.2,2286700,5518500,41.4,0.7
+"% with NVQ3+ - aged 16-64",102300,169300,60.4,3.0,22616800,39741400,56.9,0.2,3326700,5518500,60.3,0.7
+"% with NVQ2+ - aged 16-64",128100,169300,75.6,2.6,29536000,39741400,74.3,0.2,4278100,5518500,77.5,0.6
+"% with NVQ1+ - aged 16-64",145300,169300,85.8,2.1,33914900,39741400,85.3,0.2,4899900,5518500,88.8,0.4
+"% with other qualifications (NVQ) - aged 16-64",11900,169300,7.0,1.6,2631300,39741400,6.6,0.1,317900,5518500,5.8,0.3
+"% with no qualifications (NVQ) - aged 16-64",12100,169300,7.2,1.6,3195300,39741400,8.0,0.1,300700,5518500,5.4,0.3
+
+
+
+
+"","20/07/2016 Data has been reweighted in line with the latest ONS estimates."
+"","20/07/2016 Data has been reweighted in line with the latest ONS estimates."
+

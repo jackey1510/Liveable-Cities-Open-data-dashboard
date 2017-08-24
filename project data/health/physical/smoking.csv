@@ -1,0 +1,209 @@
+Year,ONS_Code,Org_Code,Org_Name,Metric_Primary,Metric_Secondary,Value
+2014/15,E40000001,Y54,North of England,Number of prescription items,All pharmacotherapies,415632
+2014/15,E39000001,Q44,Cheshire Warrington and Wirral,Number of prescription items,All pharmacotherapies,21308
+2014/15,E39000002,Q45,Durham Darlington and Tees,Number of prescription items,All pharmacotherapies,38335
+2014/15,E39000003,Q46,Greater Manchester,Number of prescription items,All pharmacotherapies,84829
+2014/15,E39000004,Q47,Lancashire,Number of prescription items,All pharmacotherapies,38373
+2014/15,E39000005,Q48,Merseyside,Number of prescription items,All pharmacotherapies,29603
+2014/15,E39000006,Q49,Cumbria Northumberland Tyne and Wear,Number of prescription items,All pharmacotherapies,61223
+2014/15,E39000007,Q50,North Yorkshire and Humber,Number of prescription items,All pharmacotherapies,40641
+2014/15,E39000008,Q51,South Yorkshire and Bassetlaw,Number of prescription items,All pharmacotherapies,19300
+2014/15,E39000009,Q52,West Yorkshire,Number of prescription items,All pharmacotherapies,82020
+2014/15,E40000002,Y55,Midlands and East of England,Number of prescription items,All pharmacotherapies,403943
+2014/15,E39000010,Q53,Arden Herefordshire and Worcestershire,Number of prescription items,All pharmacotherapies,39485
+2014/15,E39000011,Q54,Birmingham and the Black Country,Number of prescription items,All pharmacotherapies,54939
+2014/15,E39000012,Q55,Derbyshire and Nottinghamshire,Number of prescription items,All pharmacotherapies,33933
+2014/15,E39000013,Q56,East Anglia,Number of prescription items,All pharmacotherapies,77385
+2014/15,E39000014,Q57,Essex,Number of prescription items,All pharmacotherapies,48661
+2014/15,E39000015,Q58,Hertfordshire and the South Midlands,Number of prescription items,All pharmacotherapies,65669
+2014/15,E39000016,Q59,Leicestershire and Lincolnshire,Number of prescription items,All pharmacotherapies,47052
+2014/15,E39000017,Q60,Shropshire and Staffordshire,Number of prescription items,All pharmacotherapies,36819
+2014/15,E40000003,Y56,London,Number of prescription items,All pharmacotherapies,174539
+2014/15,E39000018,Q71,London,Number of prescription items,All pharmacotherapies,174539
+2014/15,E40000004,Y57,South of England,Number of prescription items,All pharmacotherapies,346812
+2014/15,E39000019,Q64,Bath Gloucestershire Swindon and Wiltshire,Number of prescription items,All pharmacotherapies,49799
+2014/15,E39000020,Q65,Bristol North Somerset Somerset and South Gloucestershire,Number of prescription items,All pharmacotherapies,46912
+2014/15,E39000021,Q66,Devon Cornwall and Isles of Scilly,Number of prescription items,All pharmacotherapies,65902
+2014/15,E39000022,Q67,Kent and Medway,Number of prescription items,All pharmacotherapies,38147
+2014/15,E39000023,Q68,Surrey and Sussex,Number of prescription items,All pharmacotherapies,67266
+2014/15,E39000024,Q69,Thames Valley,Number of prescription items,All pharmacotherapies,24690
+2014/15,E39000025,Q70,Wessex,Number of prescription items,All pharmacotherapies,54096
+2014/15,E40000001,Y54,North of England,Number of prescription items,Nicotine Replacement Therapies,229169
+2014/15,E39000001,Q44,Cheshire Warrington and Wirral,Number of prescription items,Nicotine Replacement Therapies,6925
+2014/15,E39000002,Q45,Durham Darlington and Tees,Number of prescription items,Nicotine Replacement Therapies,17467
+2014/15,E39000003,Q46,Greater Manchester,Number of prescription items,Nicotine Replacement Therapies,59277
+2014/15,E39000004,Q47,Lancashire,Number of prescription items,Nicotine Replacement Therapies,21561
+2014/15,E39000005,Q48,Merseyside,Number of prescription items,Nicotine Replacement Therapies,15077
+2014/15,E39000006,Q49,Cumbria Northumberland Tyne and Wear,Number of prescription items,Nicotine Replacement Therapies,32193
+2014/15,E39000007,Q50,North Yorkshire and Humber,Number of prescription items,Nicotine Replacement Therapies,19276
+2014/15,E39000008,Q51,South Yorkshire and Bassetlaw,Number of prescription items,Nicotine Replacement Therapies,10955
+2014/15,E39000009,Q52,West Yorkshire,Number of prescription items,Nicotine Replacement Therapies,46438
+2014/15,E40000002,Y55,Midlands and East of England,Number of prescription items,Nicotine Replacement Therapies,219804
+2014/15,E39000010,Q53,Arden Herefordshire and Worcestershire,Number of prescription items,Nicotine Replacement Therapies,22367
+2014/15,E39000011,Q54,Birmingham and the Black Country,Number of prescription items,Nicotine Replacement Therapies,33915
+2014/15,E39000012,Q55,Derbyshire and Nottinghamshire,Number of prescription items,Nicotine Replacement Therapies,15998
+2014/15,E39000013,Q56,East Anglia,Number of prescription items,Nicotine Replacement Therapies,45421
+2014/15,E39000014,Q57,Essex,Number of prescription items,Nicotine Replacement Therapies,24696
+2014/15,E39000015,Q58,Hertfordshire and the South Midlands,Number of prescription items,Nicotine Replacement Therapies,36368
+2014/15,E39000016,Q59,Leicestershire and Lincolnshire,Number of prescription items,Nicotine Replacement Therapies,23817
+2014/15,E39000017,Q60,Shropshire and Staffordshire,Number of prescription items,Nicotine Replacement Therapies,17222
+2014/15,E40000003,Y56,London,Number of prescription items,Nicotine Replacement Therapies,111042
+2014/15,E39000018,Q71,London,Number of prescription items,Nicotine Replacement Therapies,111042
+2014/15,E40000004,Y57,South of England,Number of prescription items,Nicotine Replacement Therapies,201143
+2014/15,E39000019,Q64,Bath Gloucestershire Swindon and Wiltshire,Number of prescription items,Nicotine Replacement Therapies,28428
+2014/15,E39000020,Q65,Bristol North Somerset Somerset and South Gloucestershire,Number of prescription items,Nicotine Replacement Therapies,28326
+2014/15,E39000021,Q66,Devon Cornwall and Isles of Scilly,Number of prescription items,Nicotine Replacement Therapies,45793
+2014/15,E39000022,Q67,Kent and Medway,Number of prescription items,Nicotine Replacement Therapies,18300
+2014/15,E39000023,Q68,Surrey and Sussex,Number of prescription items,Nicotine Replacement Therapies,41196
+2014/15,E39000024,Q69,Thames Valley,Number of prescription items,Nicotine Replacement Therapies,14087
+2014/15,E39000025,Q70,Wessex,Number of prescription items,Nicotine Replacement Therapies,25013
+2014/15,E40000001,Y54,North of England,Number of prescription items,Bupropion (Zyban),5185
+2014/15,E39000001,Q44,Cheshire Warrington and Wirral,Number of prescription items,Bupropion (Zyban),335
+2014/15,E39000002,Q45,Durham Darlington and Tees,Number of prescription items,Bupropion (Zyban),618
+2014/15,E39000003,Q46,Greater Manchester,Number of prescription items,Bupropion (Zyban),1139
+2014/15,E39000004,Q47,Lancashire,Number of prescription items,Bupropion (Zyban),319
+2014/15,E39000005,Q48,Merseyside,Number of prescription items,Bupropion (Zyban),256
+2014/15,E39000006,Q49,Cumbria Northumberland Tyne and Wear,Number of prescription items,Bupropion (Zyban),695
+2014/15,E39000007,Q50,North Yorkshire and Humber,Number of prescription items,Bupropion (Zyban),686
+2014/15,E39000008,Q51,South Yorkshire and Bassetlaw,Number of prescription items,Bupropion (Zyban),344
+2014/15,E39000009,Q52,West Yorkshire,Number of prescription items,Bupropion (Zyban),793
+2014/15,E40000002,Y55,Midlands and East of England,Number of prescription items,Bupropion (Zyban),4961
+2014/15,E39000010,Q53,Arden Herefordshire and Worcestershire,Number of prescription items,Bupropion (Zyban),755
+2014/15,E39000011,Q54,Birmingham and the Black Country,Number of prescription items,Bupropion (Zyban),319
+2014/15,E39000012,Q55,Derbyshire and Nottinghamshire,Number of prescription items,Bupropion (Zyban),929
+2014/15,E39000013,Q56,East Anglia,Number of prescription items,Bupropion (Zyban),1055
+2014/15,E39000014,Q57,Essex,Number of prescription items,Bupropion (Zyban),468
+2014/15,E39000015,Q58,Hertfordshire and the South Midlands,Number of prescription items,Bupropion (Zyban),679
+2014/15,E39000016,Q59,Leicestershire and Lincolnshire,Number of prescription items,Bupropion (Zyban),414
+2014/15,E39000017,Q60,Shropshire and Staffordshire,Number of prescription items,Bupropion (Zyban),342
+2014/15,E40000003,Y56,London,Number of prescription items,Bupropion (Zyban),4430
+2014/15,E39000018,Q71,London,Number of prescription items,Bupropion (Zyban),4430
+2014/15,E40000004,Y57,South of England,Number of prescription items,Bupropion (Zyban),6497
+2014/15,E39000019,Q64,Bath Gloucestershire Swindon and Wiltshire,Number of prescription items,Bupropion (Zyban),506
+2014/15,E39000020,Q65,Bristol North Somerset Somerset and South Gloucestershire,Number of prescription items,Bupropion (Zyban),802
+2014/15,E39000021,Q66,Devon Cornwall and Isles of Scilly,Number of prescription items,Bupropion (Zyban),672
+2014/15,E39000022,Q67,Kent and Medway,Number of prescription items,Bupropion (Zyban),849
+2014/15,E39000023,Q68,Surrey and Sussex,Number of prescription items,Bupropion (Zyban),1207
+2014/15,E39000024,Q69,Thames Valley,Number of prescription items,Bupropion (Zyban),958
+2014/15,E39000025,Q70,Wessex,Number of prescription items,Bupropion (Zyban),1503
+2014/15,E40000001,Y54,North of England,Number of prescription items,Varenicline (Champix),181278
+2014/15,E39000001,Q44,Cheshire Warrington and Wirral,Number of prescription items,Varenicline (Champix),14048
+2014/15,E39000002,Q45,Durham Darlington and Tees,Number of prescription items,Varenicline (Champix),20250
+2014/15,E39000003,Q46,Greater Manchester,Number of prescription items,Varenicline (Champix),24413
+2014/15,E39000004,Q47,Lancashire,Number of prescription items,Varenicline (Champix),16493
+2014/15,E39000005,Q48,Merseyside,Number of prescription items,Varenicline (Champix),14270
+2014/15,E39000006,Q49,Cumbria Northumberland Tyne and Wear,Number of prescription items,Varenicline (Champix),28335
+2014/15,E39000007,Q50,North Yorkshire and Humber,Number of prescription items,Varenicline (Champix),20679
+2014/15,E39000008,Q51,South Yorkshire and Bassetlaw,Number of prescription items,Varenicline (Champix),8001
+2014/15,E39000009,Q52,West Yorkshire,Number of prescription items,Varenicline (Champix),34789
+2014/15,E40000002,Y55,Midlands and East of England,Number of prescription items,Varenicline (Champix),179178
+2014/15,E39000010,Q53,Arden Herefordshire and Worcestershire,Number of prescription items,Varenicline (Champix),16363
+2014/15,E39000011,Q54,Birmingham and the Black Country,Number of prescription items,Varenicline (Champix),20705
+2014/15,E39000012,Q55,Derbyshire and Nottinghamshire,Number of prescription items,Varenicline (Champix),17006
+2014/15,E39000013,Q56,East Anglia,Number of prescription items,Varenicline (Champix),30909
+2014/15,E39000014,Q57,Essex,Number of prescription items,Varenicline (Champix),23497
+2014/15,E39000015,Q58,Hertfordshire and the South Midlands,Number of prescription items,Varenicline (Champix),28622
+2014/15,E39000016,Q59,Leicestershire and Lincolnshire,Number of prescription items,Varenicline (Champix),22821
+2014/15,E39000017,Q60,Shropshire and Staffordshire,Number of prescription items,Varenicline (Champix),19255
+2014/15,E40000003,Y56,London,Number of prescription items,Varenicline (Champix),59067
+2014/15,E39000018,Q71,London,Number of prescription items,Varenicline (Champix),59067
+2014/15,E40000004,Y57,South of England,Number of prescription items,Varenicline (Champix),139172
+2014/15,E39000019,Q64,Bath Gloucestershire Swindon and Wiltshire,Number of prescription items,Varenicline (Champix),20865
+2014/15,E39000020,Q65,Bristol North Somerset Somerset and South Gloucestershire,Number of prescription items,Varenicline (Champix),17784
+2014/15,E39000021,Q66,Devon Cornwall and Isles of Scilly,Number of prescription items,Varenicline (Champix),19437
+2014/15,E39000022,Q67,Kent and Medway,Number of prescription items,Varenicline (Champix),18998
+2014/15,E39000023,Q68,Surrey and Sussex,Number of prescription items,Varenicline (Champix),24863
+2014/15,E39000024,Q69,Thames Valley,Number of prescription items,Varenicline (Champix),9645
+2014/15,E39000025,Q70,Wessex,Number of prescription items,Varenicline (Champix),27580
+2014/15,NULL,Null,Unattributable,Number of prescription items,All pharmacotherapies,7236
+2014/15,NULL,Null,Unattributable,Number of prescription items,Nicotine Replacement Therapies,4547
+2014/15,NULL,Null,Unattributable,Number of prescription items,Bupropion (Zyban),25
+2014/15,NULL,Null,Unattributable,Number of prescription items,Varenicline (Champix),2664
+2014/15,E92000001,921,England,Number of prescription items,All pharmacotherapies,1348162
+2014/15,E92000001,921,England,Number of prescription items,Nicotine Replacement Therapies,765705
+2014/15,E92000001,921,England,Number of prescription items,Bupropion (Zyban),21098
+2014/15,E92000001,921,England,Number of prescription items,Varenicline (Champix),561359
+2013/14,E92000001,921,England,Number of prescription items,All pharmacotherapies,1778258
+2013/14,E92000001,921,England,Number of prescription items,Nicotine Replacement Therapies,1058985
+2013/14,E92000001,921,England,Number of prescription items,Bupropion (Zyban),22445
+2013/14,E92000001,921,England,Number of prescription items,Varenicline (Champix),696828
+2012/13,E92000001,921,England,Number of prescription items,All pharmacotherapies,2203000
+2012/13,E92000001,921,England,Number of prescription items,Nicotine Replacement Therapies,1318000
+2012/13,E92000001,921,England,Number of prescription items,Bupropion (Zyban),26000
+2012/13,E92000001,921,England,Number of prescription items,Varenicline (Champix),859000
+2011/12,E92000001,921,England,Number of prescription items,All pharmacotherapies,2532174
+2011/12,E92000001,921,England,Number of prescription items,Nicotine Replacement Therapies,1545229
+2011/12,E92000001,921,England,Number of prescription items,Bupropion (Zyban),30037
+2011/12,E92000001,921,England,Number of prescription items,Varenicline (Champix),956908
+2010/11,E92000001,921,England,Number of prescription items,All pharmacotherapies,2564277
+2010/11,E92000001,921,England,Number of prescription items,Nicotine Replacement Therapies,1541315
+2010/11,E92000001,921,England,Number of prescription items,Bupropion (Zyban),36166
+2010/11,E92000001,921,England,Number of prescription items,Varenicline (Champix),986796
+2009/10,E92000001,921,England,Number of prescription items,All pharmacotherapies,2482879
+2009/10,E92000001,921,England,Number of prescription items,Nicotine Replacement Therapies,1558520
+2009/10,E92000001,921,England,Number of prescription items,Bupropion (Zyban),47219
+2009/10,E92000001,921,England,Number of prescription items,Varenicline (Champix),877140
+2008/09,E92000001,921,England,Number of prescription items,All pharmacotherapies,2263208
+2008/09,E92000001,921,England,Number of prescription items,Nicotine Replacement Therapies,1491505
+2008/09,E92000001,921,England,Number of prescription items,Bupropion (Zyban),57943
+2008/09,E92000001,921,England,Number of prescription items,Varenicline (Champix),713760
+2007/08,E92000001,921,England,Number of prescription items,All pharmacotherapies,2475411
+2007/08,E92000001,921,England,Number of prescription items,Nicotine Replacement Therapies,1755871
+2007/08,E92000001,921,England,Number of prescription items,Bupropion (Zyban),107467
+2007/08,E92000001,921,England,Number of prescription items,Varenicline (Champix),612073
+2006/07,E92000001,921,England,Number of prescription items,All pharmacotherapies,2079063
+2006/07,E92000001,921,England,Number of prescription items,Nicotine Replacement Therapies,1937705
+2006/07,E92000001,921,England,Number of prescription items,Bupropion (Zyban),119328
+2006/07,E92000001,921,England,Number of prescription items,Varenicline (Champix),22030
+2005/06,E92000001,921,England,Number of prescription items,All pharmacotherapies,2205102
+2005/06,E92000001,921,England,Number of prescription items,Nicotine Replacement Therapies,2076371
+2005/06,E92000001,921,England,Number of prescription items,Bupropion (Zyban),128731
+2005/06,E92000001,921,England,Number of prescription items,Varenicline (Champix),..
+2004/05,E92000001,921,England,Number of prescription items,All pharmacotherapies,2043914
+2004/05,E92000001,921,England,Number of prescription items,Nicotine Replacement Therapies,1907724
+2004/05,E92000001,921,England,Number of prescription items,Bupropion (Zyban),136190
+2004/05,E92000001,921,England,Number of prescription items,Varenicline (Champix),..
+2014/15,E92000001,921,England,Net Ingredient Cost,All pharmacotherapies,"38,145"
+2014/15,E92000001,921,England,Net Ingredient Cost,Nicotine Replacement Therapies,"18,208"
+2014/15,E92000001,921,England,Net Ingredient Cost,Bupropion (Zyban),807
+2014/15,E92000001,921,England,Net Ingredient Cost,Varenicline (Champix),"19,129"
+2013/14,E92000001,921,England,Net Ingredient Cost,All pharmacotherapies,48767.41383
+2013/14,E92000001,921,England,Net Ingredient Cost,Nicotine Replacement Therapies,24257.28777
+2013/14,E92000001,921,England,Net Ingredient Cost,Bupropion (Zyban),864.6231
+2013/14,E92000001,921,England,Net Ingredient Cost,Varenicline (Champix),23645.50296
+2012/13,E92000001,921,England,Net Ingredient Cost,All pharmacotherapies,58121
+2012/13,E92000001,921,England,Net Ingredient Cost,Nicotine Replacement Therapies,28069
+2012/13,E92000001,921,England,Net Ingredient Cost,Bupropion (Zyban),994
+2012/13,E92000001,921,England,Net Ingredient Cost,Varenicline (Champix),29058
+2011/12,E92000001,921,England,Net Ingredient Cost,All pharmacotherapies,64551.54205
+2011/12,E92000001,921,England,Net Ingredient Cost,Nicotine Replacement Therapies,30950.55877
+2011/12,E92000001,921,England,Net Ingredient Cost,Bupropion (Zyban),1216.00673
+2011/12,E92000001,921,England,Net Ingredient Cost,Varenicline (Champix),32384.97655
+2010/11,E92000001,921,England,Net Ingredient Cost,All pharmacotherapies,65882.87414
+2010/11,E92000001,921,England,Net Ingredient Cost,Nicotine Replacement Therapies,30807.63896
+2010/11,E92000001,921,England,Net Ingredient Cost,Bupropion (Zyban),1581.23135
+2010/11,E92000001,921,England,Net Ingredient Cost,Varenicline (Champix),33494.00383
+2009/10,E92000001,921,England,Net Ingredient Cost,All pharmacotherapies,63424.676
+2009/10,E92000001,921,England,Net Ingredient Cost,Nicotine Replacement Therapies,31428.88841
+2009/10,E92000001,921,England,Net Ingredient Cost,Bupropion (Zyban),2059.82337
+2009/10,E92000001,921,England,Net Ingredient Cost,Varenicline (Champix),29935.96422
+2008/09,E92000001,921,England,Net Ingredient Cost,All pharmacotherapies,57520.15779
+2008/09,E92000001,921,England,Net Ingredient Cost,Nicotine Replacement Therapies,30683.22996
+2008/09,E92000001,921,England,Net Ingredient Cost,Bupropion (Zyban),2143.12045
+2008/09,E92000001,921,England,Net Ingredient Cost,Varenicline (Champix),24693.80738
+2007/08,E92000001,921,England,Net Ingredient Cost,All pharmacotherapies,61479.26943
+2007/08,E92000001,921,England,Net Ingredient Cost,Nicotine Replacement Therapies,35882.94782
+2007/08,E92000001,921,England,Net Ingredient Cost,Bupropion (Zyban),3882.16692
+2007/08,E92000001,921,England,Net Ingredient Cost,Varenicline (Champix),21714.15469
+2006/07,E92000001,921,England,Net Ingredient Cost,All pharmacotherapies,44816.9949
+2006/07,E92000001,921,England,Net Ingredient Cost,Nicotine Replacement Therapies,39742.66126
+2006/07,E92000001,921,England,Net Ingredient Cost,Bupropion (Zyban),4314.71161
+2006/07,E92000001,921,England,Net Ingredient Cost,Varenicline (Champix),759.62203
+2005/06,E92000001,921,England,Net Ingredient Cost,All pharmacotherapies,48091.95
+2005/06,E92000001,921,England,Net Ingredient Cost,Nicotine Replacement Therapies,43465.221
+2005/06,E92000001,921,England,Net Ingredient Cost,Bupropion (Zyban),4626.729
+2005/06,E92000001,921,England,Net Ingredient Cost,Varenicline (Champix),..
+2004/05,E92000001,921,England,Net Ingredient Cost,All pharmacotherapies,46093.221
+2004/05,E92000001,921,England,Net Ingredient Cost,Nicotine Replacement Therapies,40941.819
+2004/05,E92000001,921,England,Net Ingredient Cost,Bupropion (Zyban),5151.402
+2004/05,E92000001,921,England,Net Ingredient Cost,Varenicline (Champix),..
