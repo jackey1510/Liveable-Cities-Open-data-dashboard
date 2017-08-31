@@ -6,7 +6,9 @@
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "OrganisationName":{"type":"string","description":"Organisation name"}
+  },
   "validations": [],
   "relations": {},
   "acls": [

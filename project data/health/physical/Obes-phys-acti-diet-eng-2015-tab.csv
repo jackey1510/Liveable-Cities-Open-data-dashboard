@@ -1,0 +1,163 @@
+Year,Org_Type,ONS_Code,Org_Code,Org_Name,Classification,Metric_Primary,Value
+2014,National,E92000001,ENG,England,FAE_Primary_Obesity,All persons,9325
+2014,Region,E12000009,K,South West,FAE_Primary_Obesity,All persons,743
+2014,Region,E12000008,J,South East,FAE_Primary_Obesity,All persons,1156
+2014,Region,E12000007,H,London,FAE_Primary_Obesity,All persons,2117
+2014,Region,E12000006,G,East of England,FAE_Primary_Obesity,All persons,525
+2014,Region,E12000005,F,West Midlands,FAE_Primary_Obesity,All persons,738
+2014,Region,E12000004,E,East Midlands,FAE_Primary_Obesity,All persons,420
+2014,Region,E12000003,D,Yorkshire and the Humber,FAE_Primary_Obesity,All persons,816
+2014,Region,E12000002,B,North West,FAE_Primary_Obesity,All persons,791
+2014,Region,E12000001,A,North East,FAE_Primary_Obesity,All persons,2018
+2014,LocalAuthority,E10000034,416,Worcestershire County Council                                                                       ,FAE_Primary_Obesity,All persons,43
+2014,LocalAuthority,E10000032,807,West Sussex County Council                                                                          ,FAE_Primary_Obesity,All persons,132
+2014,LocalAuthority,E10000031,404,Warwickshire County Council                                                                         ,FAE_Primary_Obesity,All persons,42
+2014,LocalAuthority,E10000030,805,Surrey County Council                                                                               ,FAE_Primary_Obesity,All persons,145
+2014,LocalAuthority,E10000029,609,Suffolk County Council                                                                              ,FAE_Primary_Obesity,All persons,41
+2014,LocalAuthority,E10000028,413,Staffordshire County Council                                                                        ,FAE_Primary_Obesity,All persons,70
+2014,LocalAuthority,E10000027,905,Somerset County Council                                                                             ,FAE_Primary_Obesity,All persons,67
+2014,LocalAuthority,E10000025,608,Oxfordshire County Council                                                                          ,FAE_Primary_Obesity,All persons,24
+2014,LocalAuthority,E10000024,511,Nottinghamshire County Council                                                                      ,FAE_Primary_Obesity,All persons,86
+2014,LocalAuthority,E10000023,218,North Yorkshire County Council                                                                      ,FAE_Primary_Obesity,All persons,120
+2014,LocalAuthority,E10000021,504,Northamptonshire County Council                                                                     ,FAE_Primary_Obesity,All persons,51
+2014,LocalAuthority,E10000020,607,Norfolk County Council                                                                              ,FAE_Primary_Obesity,All persons,126
+2014,LocalAuthority,E10000019,503,Lincolnshire County Council                                                                         ,FAE_Primary_Obesity,All persons,69
+2014,LocalAuthority,E10000018,508,Leicestershire County Council                                                                       ,FAE_Primary_Obesity,All persons,49
+2014,LocalAuthority,E10000017,323,Lancashire County Council                                                                           ,FAE_Primary_Obesity,All persons,61
+2014,LocalAuthority,E10000016,820,Kent County Council                                                                                 ,FAE_Primary_Obesity,All persons,222
+2014,LocalAuthority,E10000015,606,Hertfordshire County Council                                                                        ,FAE_Primary_Obesity,All persons,99
+2014,LocalAuthority,E10000014,812,Hampshire County Council                                                                            ,FAE_Primary_Obesity,All persons,171
+2014,LocalAuthority,E10000013,904,Gloucestershire County Council                                                                      ,FAE_Primary_Obesity,All persons,41
+2014,LocalAuthority,E10000012,620,Essex County Council                                                                                ,FAE_Primary_Obesity,All persons,107
+2014,LocalAuthority,E10000011,815,East Sussex County Council                                                                          ,FAE_Primary_Obesity,All persons,96
+2014,LocalAuthority,E10000009,809,Dorset County Council                                                                               ,FAE_Primary_Obesity,All persons,27
+2014,LocalAuthority,E10000008,912,Devon County Council                                                                                ,FAE_Primary_Obesity,All persons,135
+2014,LocalAuthority,E10000007,506,Derbyshire County Council                                                                           ,FAE_Primary_Obesity,All persons,94
+2014,LocalAuthority,E10000006,102,Cumbria County Council                                                                              ,FAE_Primary_Obesity,All persons,59
+2014,LocalAuthority,E10000003,623,Cambridgeshire County Council                                                                       ,FAE_Primary_Obesity,All persons,25
+2014,LocalAuthority,E10000002,612,Buckinghamshire County Council                                                                      ,FAE_Primary_Obesity,All persons,20
+2014,LocalAuthority,E09000033,713,Westminster City Council                                                                            ,FAE_Primary_Obesity,All persons,57
+2014,LocalAuthority,E09000032,712,London Borough of Wandsworth                                                                        ,FAE_Primary_Obesity,All persons,65
+2014,LocalAuthority,E09000031,735,London Borough of Waltham Forest Council                                                            ,FAE_Primary_Obesity,All persons,45
+2014,LocalAuthority,E09000030,711,London Borough of Tower Hamlets Council                                                             ,FAE_Primary_Obesity,All persons,36
+2014,LocalAuthority,E09000029,734,London Borough of Sutton Council                                                                    ,FAE_Primary_Obesity,All persons,57
+2014,LocalAuthority,E09000028,710,London Borough of Southwark Council                                                                 ,FAE_Primary_Obesity,All persons,153
+2014,LocalAuthority,E09000027,733,London Borough of Richmond upon Thames Council                                                      ,FAE_Primary_Obesity,All persons,25
+2014,LocalAuthority,E09000026,732,London Borough of Redbridge Council                                                                 ,FAE_Primary_Obesity,All persons,24
+2014,LocalAuthority,E09000025,731,London Borough of Newham Council                                                                    ,FAE_Primary_Obesity,All persons,45
+2014,LocalAuthority,E09000024,730,London Borough of Merton Council                                                                    ,FAE_Primary_Obesity,All persons,44
+2014,LocalAuthority,E09000023,709,London Borough of Lewisham Council                                                                  ,FAE_Primary_Obesity,All persons,130
+2014,LocalAuthority,E09000022,708,London Borough of Lambeth Council                                                                   ,FAE_Primary_Obesity,All persons,103
+2014,LocalAuthority,E09000021,729,Royal Borough of Kingston-upon-Thames Council                                                       ,FAE_Primary_Obesity,All persons,43
+2014,LocalAuthority,E09000020,707,Royal Borough of Kensington and Chelsea                                                             ,FAE_Primary_Obesity,All persons,21
+2014,LocalAuthority,E09000019,706,London Borough of Islington                                                                         ,FAE_Primary_Obesity,All persons,74
+2014,LocalAuthority,E09000018,728,London Borough of Hounslow                                                                          ,FAE_Primary_Obesity,All persons,85
+2014,LocalAuthority,E09000017,727,London Borough of Hillingdon                                                                        ,FAE_Primary_Obesity,All persons,88
+2014,LocalAuthority,E09000016,726,London Borough of Havering                                                                          ,FAE_Primary_Obesity,All persons,43
+2014,LocalAuthority,E09000015,725,London Borough of Harrow                                                                            ,FAE_Primary_Obesity,All persons,50
+2014,LocalAuthority,E09000014,724,London Borough of Haringey                                                                          ,FAE_Primary_Obesity,All persons,53
+2014,LocalAuthority,E09000013,705,London Borough of Hammersmith and Fulham                                                            ,FAE_Primary_Obesity,All persons,49
+2014,LocalAuthority,E09000012,704,London Borough of Hackney                                                                           ,FAE_Primary_Obesity,All persons,59
+2014,LocalAuthority,E09000011,703,London Borough of Greenwich                                                                         ,FAE_Primary_Obesity,All persons,81
+2014,LocalAuthority,E09000010,723,London Borough of Enfield                                                                           ,FAE_Primary_Obesity,All persons,60
+2014,LocalAuthority,E09000009,722,London Borough of Ealing                                                                            ,FAE_Primary_Obesity,All persons,88
+2014,LocalAuthority,E09000008,721,London Borough of Croydon                                                                           ,FAE_Primary_Obesity,All persons,90
+2014,LocalAuthority,E09000007,702,London Borough of Camden                                                                            ,FAE_Primary_Obesity,All persons,58
+2014,LocalAuthority,E09000006,720,London Borough of Bromley                                                                           ,FAE_Primary_Obesity,All persons,57
+2014,LocalAuthority,E09000005,719,London Borough of Brent                                                                             ,FAE_Primary_Obesity,All persons,97
+2014,LocalAuthority,E09000004,718,London Borough of Bexley                                                                            ,FAE_Primary_Obesity,All persons,77
+2014,LocalAuthority,E09000003,717,London Borough of Barnet                                                                            ,FAE_Primary_Obesity,All persons,117
+2014,LocalAuthority,E09000002,716,London Borough of Barking and Dagenham                                                              ,FAE_Primary_Obesity,All persons,42
+2014,LocalAuthority,E09000001,714,Corporation of the City of London                                                                   ,FAE_Primary_Obesity,All persons,
+2014,LocalAuthority,E08000037,106,Gateshead Metropolitan Borough Council                                                              ,FAE_Primary_Obesity,All persons,125
+2014,LocalAuthority,E08000036,213,Wakefield Council                                                                                   ,FAE_Primary_Obesity,All persons,53
+2014,LocalAuthority,E08000035,212,Leeds City Council                                                                                  ,FAE_Primary_Obesity,All persons,133
+2014,LocalAuthority,E08000034,211,Kirklees Council                                                                                    ,FAE_Primary_Obesity,All persons,32
+2014,LocalAuthority,E08000033,210,Calderdale Metropolitan Borough Council                                                             ,FAE_Primary_Obesity,All persons,46
+2014,LocalAuthority,E08000032,209,City of Bradford Metropolitan District Council                                                      ,FAE_Primary_Obesity,All persons,77
+2014,LocalAuthority,E08000031,412,Wolverhampton City Council                                                                          ,FAE_Primary_Obesity,All persons,38
+2014,LocalAuthority,E08000030,411,Walsall Metropolitan Borough Council                                                                ,FAE_Primary_Obesity,All persons,27
+2014,LocalAuthority,E08000029,410,Solihull Metropolitan Borough Council                                                               ,FAE_Primary_Obesity,All persons,20
+2014,LocalAuthority,E08000028,409,Sandwell Metropolitan Borough Council,FAE_Primary_Obesity,All persons,60
+2014,LocalAuthority,E08000027,408,Dudley Metropolitan Borough Council                                                                 ,FAE_Primary_Obesity,All persons,32
+2014,LocalAuthority,E08000026,407,Coventry City Council                                                                               ,FAE_Primary_Obesity,All persons,34
+2014,LocalAuthority,E08000025,406,Birmingham City Council                                                                             ,FAE_Primary_Obesity,All persons,157
+2014,LocalAuthority,E08000024,110,Sunderland City Council                                                                             ,FAE_Primary_Obesity,All persons,341
+2014,LocalAuthority,E08000023,109,South Tyneside Metropolitan Borough Council                                                         ,FAE_Primary_Obesity,All persons,153
+2014,LocalAuthority,E08000022,108,North Tyneside Council                                                                              ,FAE_Primary_Obesity,All persons,79
+2014,LocalAuthority,E08000021,107,Newcastle-upon-Tyne City Council                                                          ,FAE_Primary_Obesity,All persons,79
+2014,LocalAuthority,E08000019,207,Sheffield City Council                                                                              ,FAE_Primary_Obesity,All persons,72
+2014,LocalAuthority,E08000018,206,Rotherham Metropolitan Borough Council                                                              ,FAE_Primary_Obesity,All persons,16
+2014,LocalAuthority,E08000017,205,Doncaster Council                                                                                   ,FAE_Primary_Obesity,All persons,64
+2014,LocalAuthority,E08000016,204,Barnsley Metropolitan Borough Council                                                               ,FAE_Primary_Obesity,All persons,31
+2014,LocalAuthority,E08000015,319,Wirral Metropolitan Borough Council                                                                 ,FAE_Primary_Obesity,All persons,23
+2014,LocalAuthority,E08000014,317,Sefton Council                                                                                      ,FAE_Primary_Obesity,All persons,30
+2014,LocalAuthority,E08000013,318,St Helens Metropolitan Borough Council                                                              ,FAE_Primary_Obesity,All persons,32
+2014,LocalAuthority,E08000012,316,Liverpool City Council                                                                              ,FAE_Primary_Obesity,All persons,93
+2014,LocalAuthority,E08000011,315,Knowsley Metropolitan Borough Council                                                               ,FAE_Primary_Obesity,All persons,33
+2014,LocalAuthority,E08000010,313,Wigan Metropolitan Borough Council                                                                  ,FAE_Primary_Obesity,All persons,26
+2014,LocalAuthority,E08000009,312,Trafford Metropolitan Borough Council                                                               ,FAE_Primary_Obesity,All persons,15
+2014,LocalAuthority,E08000008,311,Tameside Metropolitan Borough Council                                                               ,FAE_Primary_Obesity,All persons,9
+2014,LocalAuthority,E08000007,310,Stockport Metropolitan Borough Council                                                              ,FAE_Primary_Obesity,All persons,20
+2014,LocalAuthority,E08000006,309,Salford City Council                                                                                ,FAE_Primary_Obesity,All persons,30
+2014,LocalAuthority,E08000005,308,Rochdale Metropolitan Borough Council                                                               ,FAE_Primary_Obesity,All persons,31
+2014,LocalAuthority,E08000004,307,Oldham Metropolitian Borough Council                                                                ,FAE_Primary_Obesity,All persons,24
+2014,LocalAuthority,E08000003,306,Manchester City Council                                                                             ,FAE_Primary_Obesity,All persons,62
+2014,LocalAuthority,E08000002,305,Bury Metropolitan Borough Council                                                                   ,FAE_Primary_Obesity,All persons,15
+2014,LocalAuthority,E08000001,304,Bolton Metropolitan Borough Council                                                                 ,FAE_Primary_Obesity,All persons,17
+2014,LocalAuthority,E06000057,104,Northumberland County Council                                                                       ,FAE_Primary_Obesity,All persons,101
+2014,LocalAuthority,E06000056,626,Central Bedfordshire Council                                                                        ,FAE_Primary_Obesity,All persons,29
+2014,LocalAuthority,E06000055,625,Bedford Borough Council                                                                             ,FAE_Primary_Obesity,All persons,10
+2014,LocalAuthority,E06000054,817,Wiltshire Council                                                                                   ,FAE_Primary_Obesity,All persons,63
+2014,LocalAuthority,E06000053,906,The Council of the Isles of Scilly (Unitary)                                                        ,FAE_Primary_Obesity,All persons,0
+2014,LocalAuthority,E06000052,902,Cornwall Council                                                                                    ,FAE_Primary_Obesity,All persons,208
+2014,LocalAuthority,E06000051,417,Shropshire Council                                                                                  ,FAE_Primary_Obesity,All persons,38
+2014,LocalAuthority,E06000050,327,Cheshire West and Chester Council,FAE_Primary_Obesity,All persons,68
+2014,LocalAuthority,E06000049,326,Cheshire East Council                                                                               ,FAE_Primary_Obesity,All persons,63
+2014,LocalAuthority,E06000047,116,Durham County Council                                                                               ,FAE_Primary_Obesity,All persons,607
+2014,LocalAuthority,E06000046,803,Isle of Wight Council                                                                               ,FAE_Primary_Obesity,All persons,18
+2014,LocalAuthority,E06000045,814,Southampton City Council (Unitary)                                                                  ,FAE_Primary_Obesity,All persons,63
+2014,LocalAuthority,E06000044,813,Portsmouth City Council (Unitary)                                                                   ,FAE_Primary_Obesity,All persons,37
+2014,LocalAuthority,E06000043,816,Brighton & Hove City Council (Unitary),FAE_Primary_Obesity,All persons,37
+2014,LocalAuthority,E06000042,613,Milton Keynes Council (Unitary)                                                                     ,FAE_Primary_Obesity,All persons,31
+2014,LocalAuthority,E06000041,619,Wokingham Borough Council (Unitary)                                                                 ,FAE_Primary_Obesity,All persons,12
+2014,LocalAuthority,E06000040,618,Royal Borough of Windsor & Maidenhead (Unitary)                                                     ,FAE_Primary_Obesity,All persons,17
+2014,LocalAuthority,E06000039,617,Slough Borough Council (Unitary)                                                                    ,FAE_Primary_Obesity,All persons,10
+2014,LocalAuthority,E06000038,616,Reading Borough Council (Unitary)                                                                   ,FAE_Primary_Obesity,All persons,18
+2014,LocalAuthority,E06000037,615,West Berkshire District Council (Unitary)                                                           ,FAE_Primary_Obesity,All persons,12
+2014,LocalAuthority,E06000036,614,Bracknell Forest Borough Council (Unitary)                                                          ,FAE_Primary_Obesity,All persons,19
+2014,LocalAuthority,E06000035,821,Medway Council (Unitary)                                                                            ,FAE_Primary_Obesity,All persons,72
+2014,LocalAuthority,E06000034,622,Thurrock Council (Unitary)                                                                          ,FAE_Primary_Obesity,All persons,16
+2014,LocalAuthority,E06000033,621,Southend-on-Sea Borough Council (Unitary)                                                           ,FAE_Primary_Obesity,All persons,26
+2014,LocalAuthority,E06000032,611,Luton Borough Council (Unitary)                                                                     ,FAE_Primary_Obesity,All persons,28
+2014,LocalAuthority,E06000031,624,Peterborough City Council (Unitary)                                                                 ,FAE_Primary_Obesity,All persons,18
+2014,LocalAuthority,E06000030,819,Swindon Borough Council (Unitary)                                                                   ,FAE_Primary_Obesity,All persons,19
+2014,LocalAuthority,E06000029,811,Borough of Poole Council (Unitary)                                                                  ,FAE_Primary_Obesity,All persons,10
+2014,LocalAuthority,E06000028,810,Bournemouth Borough Council (Unitary)                                                               ,FAE_Primary_Obesity,All persons,12
+2014,LocalAuthority,E06000027,914,Torbay Council (Unitary)                                                                            ,FAE_Primary_Obesity,All persons,15
+2014,LocalAuthority,E06000026,913,Plymouth City Council (Unitary)                                                                     ,FAE_Primary_Obesity,All persons,58
+2014,LocalAuthority,E06000025,911,South Gloucestershire Council (Unitary)                                                             ,FAE_Primary_Obesity,All persons,25
+2014,LocalAuthority,E06000024,910,North Somerset District Council                                                                     ,FAE_Primary_Obesity,All persons,18
+2014,LocalAuthority,E06000023,909,Bristol City Council                                                                                ,FAE_Primary_Obesity,All persons,29
+2014,LocalAuthority,E06000022,908,Bath and North East Somerset Council (Unitary)                                                      ,FAE_Primary_Obesity,All persons,16
+2014,LocalAuthority,E06000021,414,Stoke-on-Trent City Council (Unitary)                                                               ,FAE_Primary_Obesity,All persons,107
+2014,LocalAuthority,E06000020,418,Telford and Wrekin Council (Unitary)                                                                ,FAE_Primary_Obesity,All persons,58
+2014,LocalAuthority,E06000019,415,Herefordshire Council                                                                               ,FAE_Primary_Obesity,All persons,12
+2014,LocalAuthority,E06000018,512,Nottingham City Council (Unitary)                                                                   ,FAE_Primary_Obesity,All persons,26
+2014,LocalAuthority,E06000017,510,Rutland County Council                                                                              ,FAE_Primary_Obesity,All persons,
+2014,LocalAuthority,E06000016,509,Leicester City Council (Unitary)                                                                    ,FAE_Primary_Obesity,All persons,17
+2014,LocalAuthority,E06000015,507,Derby City Council (Unitary)                                                                        ,FAE_Primary_Obesity,All persons,26
+2014,LocalAuthority,E06000014,219,York City Council                                                                                   ,FAE_Primary_Obesity,All persons,29
+2014,LocalAuthority,E06000013,217,North Lincolnshire Council (Unitary)                                                                ,FAE_Primary_Obesity,All persons,42
+2014,LocalAuthority,E06000012,216,North East Lincolnshire Council (Unitary)                                                           ,FAE_Primary_Obesity,All persons,36
+2014,LocalAuthority,E06000011,214,East Riding of Yorkshire Council (Unitary)                                                          ,FAE_Primary_Obesity,All persons,37
+2014,LocalAuthority,E06000010,215,Kingston-upon-Hull City Council (Unitary)                                                           ,FAE_Primary_Obesity,All persons,28
+2014,LocalAuthority,E06000009,325,Blackpool Borough Council (Unitary)                                                                 ,FAE_Primary_Obesity,All persons,19
+2014,LocalAuthority,E06000008,324,Blackburn with Darwen Borough Council (Unitary)                                                     ,FAE_Primary_Obesity,All persons,9
+2014,LocalAuthority,E06000007,322,Warrington Borough Council (Unitary)                                                                ,FAE_Primary_Obesity,All persons,16
+2014,LocalAuthority,E06000006,321,Halton Borough Council (Unitary)                                                                    ,FAE_Primary_Obesity,All persons,36
+2014,LocalAuthority,E06000005,117,Darlington Borough Council (Unitary)                                                                ,FAE_Primary_Obesity,All persons,78
+2014,LocalAuthority,E06000004,114,Stockton-on-Tees Borough Council (Unitary)                                                          ,FAE_Primary_Obesity,All persons,164
+2014,LocalAuthority,E06000003,113,Redcar & Cleveland Borough Council                                                                  ,FAE_Primary_Obesity,All persons,93
+2014,LocalAuthority,E06000002,112,Middlesbrough Council (Unitary)                                                                     ,FAE_Primary_Obesity,All persons,112
+2014,LocalAuthority,E06000001,111,Hartlepool Borough Council (Unitary)                                                                ,FAE_Primary_Obesity,All persons,86

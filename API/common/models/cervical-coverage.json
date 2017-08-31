@@ -1,21 +1,26 @@
 {
-  "name": "AccessGP",
-  "plural": "GPAccess",
+  "name": "CervicalCoverage",
+  "plural": "cervicalcoverage",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "Year": "number",
-    "Period of coverage": "string",
-    "Breakdown": "number",
-    "Level": "string",
-    "Level description": "string",
-    "Indicator value": "number",
-    "Numerator": "number",
-    "Denominator": "number",
-    "Question response rate": "number"
+    "Region": "string",
+    "Region 9-digit-code": "string",
+    "Region Code ODS": "string",
+    "Upper Tier Authority": "string",
+    "Upper Tier Authority Code 9": "string",
+    "Upper Tier Authority Code 4": "string",
+    "Eligible": "number",
+    "Screened": "number",
+    "Coverage": "number",
+    "Age": "string",
+    "No_80%": "string",
+    "Rank of Coverage": "number",
+    "Year": "string",
+    "Quarter": "string"
   },
   "validations": [],
   "relations": {},

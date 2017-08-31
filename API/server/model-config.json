@@ -73,7 +73,7 @@
     "public": true
   },
   "user": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": true
   },
   "team": {
@@ -82,6 +82,30 @@
   },
   "project": {
     "dataSource": "db",
+    "public": true
+  },
+  "Obesity": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "CancerIncidenceRate": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "InfantMortality": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "NeonatalDeathStillbirth": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "CervicalCoverage": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "AccessDental": {
+    "dataSource": "mongo",
     "public": true
   }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "AccessGP",
-  "plural": "GPAccess",
+  "name": "AccessDental",
+  "plural": "dentalaccess",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -9,13 +9,12 @@
   "properties": {
     "Year": "number",
     "Period of coverage": "string",
-    "Breakdown": "number",
+    "Breakdown": "string",
     "Level": "string",
     "Level description": "string",
-    "Indicator value": "number",
-    "Numerator": "number",
-    "Denominator": "number",
-    "Question response rate": "number"
+    "Proportion of respondents who successfully obtained an NHS appointment in the last two years": "number",
+    "Question response rate": "number",
+    "Proportion of respondents who tried to get an NHS dental appointment in the last two years": "number"
   },
   "validations": [],
   "relations": {},

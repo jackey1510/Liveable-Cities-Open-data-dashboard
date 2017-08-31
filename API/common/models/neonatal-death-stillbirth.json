@@ -1,6 +1,6 @@
 {
-  "name": "AccessGP",
-  "plural": "GPAccess",
+  "name": "NeonatalDeathStillbirth",
+  "plural": "neonataldeathstillbirth",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -9,13 +9,13 @@
   "properties": {
     "Year": "number",
     "Period of coverage": "string",
-    "Breakdown": "number",
+    "Breakdown": "string",
     "Level": "string",
     "Level description": "string",
     "Indicator value": "number",
-    "Numerator": "number",
-    "Denominator": "number",
-    "Question response rate": "number"
+    "Live births": "number",
+    "Stillbirths": "number",
+    "Neonatal deaths": "number"
   },
   "validations": [],
   "relations": {},

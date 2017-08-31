@@ -1,6 +1,6 @@
 {
-  "name": "AccessGP",
-  "plural": "GPAccess",
+  "name": "CancerIncidenceRate",
+  "plural": "cancerincidencerate",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -8,14 +8,16 @@
   },
   "properties": {
     "Year": "number",
-    "Period of coverage": "string",
-    "Breakdown": "number",
-    "Level": "string",
-    "Level description": "string",
-    "Indicator value": "number",
-    "Numerator": "number",
-    "Denominator": "number",
-    "Question response rate": "number"
+    "Gender": "string",
+    "AgeGroup": "string",
+    "TumourSite": "string",
+    "ICD10": "string",
+    "HealthGeography": "string",
+    "HealthGeographyCode": "string",
+    "Total Number of Tumours": "number",
+    "AgeStandardisedRate": "number",
+    "LowerConfidenceInterval": "number",
+    "UpperConfidenceInterval": "number"
   },
   "validations": [],
   "relations": {},
