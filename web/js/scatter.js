@@ -1,5 +1,5 @@
 function scatterPlot(tooltipid,divid, dropdownid, route, id, xdomain, ydomain, standard, target, xlabel, ylabel, order){
-  var endpoint = "http://localhost:3000/api/v1";
+  var endpoint = "http://2d73a3b0.ngrok.io/api/v1";
   // set the dimensions and margins of the graph
   var margin = {top: 20, right: 50, bottom: 70, left: 50},
       width = 960 - margin.left - margin.right,

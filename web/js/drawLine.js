@@ -1,6 +1,6 @@
 function lineChart(divid, dropdownid,src, filter, id, xdomain, ydomain, zdomain, xlabel, ylabel, positivetrend, oneline,timeparse, filter2){
 
-  var endpoint = "http://localhost:3000/api/v1";
+  var endpoint = "http://2d73a3b0.ngrok.io/api/v1";
 
   // set the dimensions and margins of the graph
   var margin = {top: 20, right: 50, bottom: 90, left: 50},
