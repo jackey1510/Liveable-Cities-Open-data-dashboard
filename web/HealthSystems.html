@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Health Indicators Dashboard - Southampton</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- Visualization CSS -->
+    <link href="css/charts.css" rel="stylesheet">
+
+    <!-- Website CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+
+    <!-- D3.js -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <!-- Charts -->
+    <script src="./js/drawLine.js""></script>
+    <script src="./js/BarChart.js""></script>
+    <script src="./js/scatter.js""></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="HealthStatus.html">Health Status Indicators</a>
+                </li>
+                <li>
+                    <a href="RiskFactors.html">Risk Factors Indicators</a>
+                </li>
+                <li>
+                    <a href="ServiceCoverage.html">Service Coverage Indicators</a>
+                </li>
+                <li>
+                    <a href="#">Health Systems Indicators</a>
+                </li>
+                <li>
+                    <a href="API.html">API</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12" id="Home">
+                        <h1>Health Systems</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12" id="LifeExpectancy">
+                        <h2>Access to General Practitioner (GP) Services</h2>
+                        <p>Percentage of GP patient survey respondents reporting a very good or fairly good experience of making an appointment.</p>
+                        <h3>API URL:</h3>
+                        <pre>http://2d73a3b0.ngrok.io/api/v1/GPAccess</pre>
+                        <p>Data Source: <a href="https://data.england.nhs.uk/dataset/nhsof-4-4-i-access-to-gp-services">NHS Digital</a></p>
+                        <div class="tab">
+                          <button class="tablinks" onclick='scatterPlot("#gpaccesstooltip","#gpaccess","DropDown0","/GPAccess?filter={%22where%22:{%22Year%22:2014}}","#gpaccessChart","Level description","Indicator value","England","Southampton","Ranking (Low to High)", "GP Access rate (%)")'>Ranking (2014)</button>
+                          <button class="tablinks" onclick='lineChart("#gpaccess","DropDown0","/GPAccess?filter[where][Level description]=Southampton","/GPAccess","#gpaccessChart","Year","Indicator value","Level description","Ranking (Low to High)", "GP Access rate (%)",false,false,"%Y")'>Time Series</button>
+                        </div>
+                        <br><br>
+                        <div id="gpaccess"></div>
+                        <svg id="gpaccessChart" style="padding: 20px" width="960" height="500"></svg>
+                        <div id="gpaccesstooltip"></div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12" id="LifeExpectancy">
+                        <h2>Access to NHS Dental Service</h2>
+                        <p>Patient experience of access to dental services, measured by scoring the results of two questions from the GP Patient Survey.</p>
+                        <h3>API URL:</h3>
+                        <pre>http://2d73a3b0.ngrok.io/api/v1/dentalaccess</pre>
+                        <p>Data Source: <a href="https://data.england.nhs.uk/dataset/nhsof-4-4-ii-access-to-nhs-dental-services">NHS Digital</a></p>
+                        <div class="tab">
+                          <button class="tablinks" onclick='scatterPlot("#dentalaccesstooltip","#dentalaccess","DropDown1","/dentalaccess?filter={%22where%22:{%22Year%22:2014}}","#dentalaccessChart","Level description","Proportion of respondents who successfully obtained an NHS appointment in the last two years","England","Southampton","Ranking (Low to High)", "Dental Service Access Rate (%)")'>Ranking (2014)</button>
+                          <button class="tablinks" onclick='lineChart("#dentalaccess","DropDown1","/dentalaccess?filter[where][Level description]=Southampton","/dentalaccess","#dentalaccessChart","Year","Proportion of respondents who successfully obtained an NHS appointment in the last two years","Level description","Ranking (Low to High)", "Dental Service Access Rate (%)",false,false,"%Y")'>Time Series</button>
+                        </div>
+                        <br><br>
+                        <div id="dentalaccess"></div>
+                        <svg id="dentalaccessChart" style="padding: 20px" width="960" height="500"></svg>
+                        <div id="dentalaccesstooltip"></div>
+                        <br><br>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div>
+                <p>
+                    Contains public sector information licensed under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0.</a>
+                </p>
+            </div>
+
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    //$("#menu-toggle").click(function(e) {
+        //e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    //});
+    scatterPlot("#gpaccesstooltip","#gpaccess","DropDown0","/GPAccess?filter={%22where%22:{%22Year%22:2014}}","#gpaccessChart","Level description","Indicator value","England","Southampton","Ranking (Low to High)", "GP Access rate (%)");
+    scatterPlot("#dentalaccesstooltip","#dentalaccess","DropDown1","/dentalaccess?filter={%22where%22:{%22Year%22:2014}}","#dentalaccessChart","Level description","Proportion of respondents who successfully obtained an NHS appointment in the last two years","England","Southampton","Ranking (Low to High)", "Dental Service Access Rate (%)");
+
+
+
+    
+
+    </script>
+
+    <script  type="text/javascript"  charset="utf-8">  
+        (function(w,d,t,f){  w[f]=w[f]||function(c,k,n){s=w[f],k=s['k']=(s['k']||(k?('&k='+k):''));s['c']=  
+        c=(c  instanceof  Array)?c:[c];s['n']=n=n||0;L=d.createElement(t),e=d.getElementsByTagName(t)[0];  
+        L.async=1;L.src='http://feed.aqicn.org/feed/'+(c[n].city)+'/'+(c[n].lang||'')+'/feed.v1.js?n='+n+k;  
+        e.parentNode.insertBefore(L,e);  };  })(  window,document,'script','_aqiFeed'  );    
+    </script>
+
+    
+  
+    <script  type="text/javascript"  charset="utf-8">  
+        _aqiFeed({  
+          display:"%details",
+          container:"city-aqi-container",  
+          city:"united-kingdom/southampton-centre",  
+          lang:null  
+        });  
+    </script>
+
+
+
+</body>
+
+</html>

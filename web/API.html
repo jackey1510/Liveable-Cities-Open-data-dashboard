@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Health Indicators Dashboard - Southampton</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- Visualization CSS -->
+    <link href="css/charts.css" rel="stylesheet">
+
+    <!-- Website CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- D3.js -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <!-- Charts -->
+    <script src="./js/drawLine.js""></script>
+    <script src="./js/BarChart.js""></script>
+    <script src="./js/scatter.js""></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="HealthStatus.html">Health Status Indicators</a>
+                </li>
+                <li>
+                    <a href="RiskFactors.html">Risk Factors Indicators</a>
+                </li>
+                <li>
+                    <a href="ServiceCoverage.html">Service Coverage Indicators</a>
+                </li>
+                <li>
+                    <a href="HealthSystems.html">Health Systems Indicators</a>
+                </li>
+                <li>
+                    <a href="#">API</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12" id="Home">
+                        <h1>API</h1>
+                        <h2>API Endpoint:</h2>
+                        <pre>http://2d73a3b0.ngrok.io/api/v1</pre>
+                        <h2><a href="http://2d73a3b0.ngrok.io/explorer">API Documentaion</a></h2>
+                        <p>Check out <a href="https://loopback.io/doc/en/lb2/Working-with-data.html">Loopback official site</a> for query filter.</p>
+                        <h2>What can I do with the API?</h2>
+                        <p>Everyone can have free access to the data. However, only authenticated users have access to write. If you want to contribute this API, please contact me for registration.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12" id="Physical">
+                        
+                        <div id="physical"></div>
+                        <svg id="PhysicalChart" style="padding: 20px" width="960" height="500"></svg>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>
+                    Contains public sector information licensed under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0.</a>
+                </p>
+            </div>
+
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    //$("#menu-toggle").click(function(e) {
+        //e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    //});
+
+    scatterPlot("#physical","DropDown0","/malele","#PhysicalChart","Area Names","2013-2015","UNITED KINGDOM","Area", "Life Expectancy");
+
+
+    
+
+    </script>
+
+
+
+
+</body>
+
+</html>

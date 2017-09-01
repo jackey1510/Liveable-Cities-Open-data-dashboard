@@ -1,0 +1,70 @@
+.line {
+  fill:none;
+  stroke-width: 2px;
+  background-color: #F1F3F3 
+}
+
+.line2 {
+  fill:none;
+  stroke-width: 2px;
+}
+.barchart {
+  margin: 15px;
+  background-color: #F1F3F3 
+}
+.bar {
+  fill: #6F257F;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #D4D8DA;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+
+.scatterPlot{
+	background-color: #F1F3F3
+}
+.x path {
+  display: none;
+}
+.toolTip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6F257F;
+  padding: 14px;
+  text-align: center;
+}
+.dot{
+	fill: blue;
+}
+
+#tooltip {
+      position: absolute;
+      width: 200px;
+      height: auto;
+      padding: 10px;
+      background-color: white;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+      pointer-events: none;
+    }
+
+    #tooltip.hidden {
+      display: none;
+    }
+
+    #tooltip p {
+      margin: 0;
+      font-family: Futura;
+      font-size: 16px;
+      line-height: 20px;
+    }

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Health Indicators Dashboard - Southampton</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- Visualization CSS -->
+    <link href="css/charts.css" rel="stylesheet">
+
+    <!-- Website CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- D3.js -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <!-- Charts -->
+    <script src="./js/drawLine.js""></script>
+    <script src="./js/BarChart.js""></script>
+    <script src="./js/scatter.js""></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="HealthStatus.html">Health Status Indicators</a>
+                </li>
+                <li>
+                    <a href="RiskFactors.html">Risk Factors Indicators</a>
+                </li>
+                <li>
+                    <a href="ServiceCoverage.html">Service Coverage Indicators</a>
+                </li>
+                <li>
+                    <a href="HealthSystems.html">Health Systems Indicators</a>
+                </li>
+                <li>
+                    <a href="API.html">API</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12" id="Home">
+                        <h1>Contact</h1>
+                        <p>If you have questions regarding the project, this dashboard or the API, please kindly contact Mr. Chun Kit Lau at <a href>ckl1g16@soton.ac.uk.</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12" id="Physical">
+                        
+                        <div id="physical"></div>
+                        <svg id="PhysicalChart" style="padding: 20px" width="960" height="500"></svg>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    //$("#menu-toggle").click(function(e) {
+        //e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    //});
+
+    scatterPlot("#physical","DropDown0","/malele","#PhysicalChart","Area Names","2013-2015","UNITED KINGDOM","Area", "Life Expectancy");
+
+
+    
+
+    </script>
+
+
+
+
+</body>
+
+</html>

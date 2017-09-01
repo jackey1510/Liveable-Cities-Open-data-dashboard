@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Health Indicators Dashboard - Southampton</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- Visualization CSS -->
+    <link href="css/charts.css" rel="stylesheet">
+
+    <!-- Website CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- D3.js -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <!-- Charts -->
+    <script src="./js/drawLine.js""></script>
+    <script src="./js/BarChart.js""></script>
+    <script src="./js/scatter.js""></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="HealthStatus.html">Health Status Indicators</a>
+                </li>
+                <li>
+                    <a href="RiskFactors.html">Risk Factors Indicators</a>
+                </li>
+                <li>
+                    <a href="#">Service Coverage Indicators</a>
+                </li>
+                <li>
+                    <a href="HealthSystems.html">Health Systems Indicators</a>
+                </li>
+                <li>
+                    <a href="API.html">API</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12" id="Home">
+                        <h1>Service Coverage</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12" id="LifeExpectancy">
+                        <h2>Cervical Screening Coverage</h2>
+                        <p>Women between the ages of 25 and 64 years are invited for regular cervical screening under the NHS Cervical Screening Programme. Coverage is defined as the percentage of women eligible for screening at a given point in time who were screened adequately within a specified period (within 3.5 years for women aged 25 to 49, and within 5.5 years for women aged 50 to 64).</p>
+                        <h3>API URL:</h3>
+                        <pre>http://2d73a3b0.ngrok.io/api/v1/cervicalcoverage</pre>
+                        <p>Data Source: <a href="http://content.digital.nhs.uk/searchcatalogue?productid=25288&q=cervical&sort=Relevance&size=10&page=1#top">NHS Digital</a></p>
+                        <h3>Age 25 to 49</h3>
+                        <div class="tab">
+                          <button class="tablinks" onclick='scatterPlot("#cervicalcoveragetooltip","#cervicalcoverage","DropDown0","/cervicalcoverage?filter=%7B%22where%22%3A%7B%22and%22%3A%5B%7B%22Age%22%3A%2225_49%22%7D%2C%7B%22Year%22%3A%2201/07/2016%22%7D%5D%7D%7D","#cervicalcoverageChart","Upper Tier Authority","Coverage","Northamptonshire","Southampton","Ranking (Low to High)", "Cervical Screening Coverage (%)")'>Ranking (2016)</button>
+                          <button class="tablinks" onclick='lineChart("#cervicalcoverage","DropDown0","/cervicalcoverage?filter={%22where%22:{%22and%22:[{%22Upper%20Tier%20Authority%22:%22Southampton%22},{%22Age%22:%2225_49%22}]}}","/cervicalcoverage?filter={%22where%22:{%22Age%22:%2225_49%22}}","#cervicalcoverageChart","Year","Coverage","Upper Tier Authority","Ranking (Low to High)", "Cervical Screening Coverage (%)",true,false,"%d/%m/%Y","/cervicalcoverage?filter[where][and][0][Age]=25_49&filter[where][and][1][Upper Tier Authority]=")'>Time Series</button>
+                        </div>
+                        <h3>Age 50 to 64</h3>
+                        <div class="tab">
+                          <button class="tablinks" onclick='scatterPlot("#cervicalcoveragetooltip","#cervicalcoverage","DropDown0","/cervicalcoverage?filter=%7B%22where%22%3A%7B%22and%22%3A%5B%7B%22Age%22%3A%2250_64%22%7D%2C%7B%22Year%22%3A%2201/07/2016%22%7D%5D%7D%7D","#cervicalcoverageChart","Upper Tier Authority","Coverage","Milton Keynes","Southampton","Ranking (Low to High)", "Cervical Screening Coverage (%)")'>Ranking (2016)</button>
+                          <button class="tablinks" onclick='lineChart("#cervicalcoverage","DropDown0","/cervicalcoverage?filter={%22where%22:{%22and%22:[{%22Upper%20Tier%20Authority%22:%22Southampton%22},{%22Age%22:%2250_64%22}]}}","/cervicalcoverage?filter={%22where%22:{%22Age%22:%2250_64%22}}","#cervicalcoverageChart","Year","Coverage","Upper Tier Authority","Ranking (Low to High)", "Cervical Screening Coverage (%)",true,false,"%d/%m/%Y","/cervicalcoverage?filter[where][and][0][Age]=50_64&filter[where][and][1][Upper Tier Authority]=")'>Time Series</button>
+                        </div>
+                        <br><br>
+                        <div id="cervicalcoverage"></div>
+                        <svg id="cervicalcoverageChart" style="padding: 20px" width="960" height="500"></svg>
+                        <div id="cervicalcoveragetooltip"></div>
+                        <br><br>
+                    </div>
+                    
+                </div>
+            </div>
+            <div>
+                <p>
+                    Contains public sector information licensed under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0.</a>
+                </p>
+            </div>
+
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    //$("#menu-toggle").click(function(e) {
+        //e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    //});
+
+    scatterPlot("#cervicalcoveragetooltip","#cervicalcoverage","DropDown0","/cervicalcoverage?filter=%7B%22where%22%3A%7B%22and%22%3A%5B%7B%22Age%22%3A%2225_49%22%7D%2C%7B%22Year%22%3A%2201/07/2016%22%7D%5D%7D%7D","#cervicalcoverageChart","Upper Tier Authority","Coverage","Northamptonshire","Southampton","Ranking (Low to High)", "Cervical Screening Coverage (%)");
+    scatterPlot("#cervicalcoveragetooltip","#cervicalcoverage","DropDown0","/cervicalcoverage?filter=%7B%22where%22%3A%7B%22and%22%3A%5B%7B%22Age%22%3A%2250_64%22%7D%2C%7B%22Year%22%3A%2201/07/2016%22%7D%5D%7D%7D","#cervicalcoverageChart","Upper Tier Authority","Coverage","Milton Keynes","Southampton","Ranking (Low to High)", "Cervical Screening Coverage (%)");
+    </script>
+
+
+
+</body>
+
+</html>

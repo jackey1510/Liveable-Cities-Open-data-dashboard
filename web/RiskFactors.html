@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Health Indicators Dashboard - Southampton</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- Visualization CSS -->
+    <link href="css/charts.css" rel="stylesheet">
+
+    <!-- Website CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- D3.js -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <!-- Charts -->
+    <script src="./js/drawLine.js""></script>
+    <script src="./js/BarChart.js""></script>
+    <script src="./js/scatter.js""></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="HealthStatus.html">Health Status Indicators</a>
+                </li>
+                <li>
+                    <a href="#">Risk Factors Indicators</a>
+                </li>
+                <li>
+                    <a href="ServiceCoverage.html">Service Coverage Indicators</a>
+                </li>
+                <li>
+                    <a href="HealthSystems.html">Health Systems Indicators</a>
+                </li>
+                <li>
+                    <a href="API.html">API</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12" id="Home">
+                        <h1>Risk Factors Indicator</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12" id="LifeExpectancy">
+                        <h2>Air Pollution Levels</h2>
+                        <p>Air quality data collected in Southampton Centre measured by UK-AIR from Defra (Department for Environment Food & Rural Affairs).</p>
+                        <span id = "city-aqi-container"></span>
+                        <div><a href="http://aqicn.org/city/united-kingdom/southampton-centre/m/">More details</a></div>
+                        <p>API provided by <a href="http://aqicn.org">http://aqicn.org</a></p>
+                    </div>
+                    <div class="col-lg-12" id="InfantMortality">
+                        <h2>Adult Obesity Prevalence</h2>
+                        <p>Finished Admission Episodes with a primary or secondary diagnosis of obesity, by Region and Local Authority of residence. </p>
+                        <p>A finished admission episode (FAE) is the first period of inpatient care under one consultant within one healthcare provider. FAEs are counted against the year in which the admission episode finishes. Admissions do not represent the number of inpatients, as a person may have more than one admission within the year.</p>
+                        <p>The primary diagnosis is the first of up to 20 diagnosis fields in the Hospital Episode Statistics (HES) data set and provides the main reason why the patient was admitted to hospital. As well as the primary diagnosis, there are up to 19 secondary diagnosis fields in Hospital Episode Statistics (HES) that show other diagnoses relevant to the episode of care. These figures represent the number of episodes where the diagnosis was recorded in any of the 20 primary and secondary diagnosis fields in the record. Each episode is only counted once in each count, even if the diagnosis is recorded in more than one diagnosis field of the record.</p>
+                        <h3>API URL:</h3>
+                        <pre>http://2d73a3b0.ngrok.io/api/v1/obesity</pre>
+                        <p>Data Source: <a href="http://content.digital.nhs.uk/searchcatalogue?productid=24815&q=obesity&sort=Relevance&size=10&page=1#top">NHS Digital</a></p>
+                        <div class="tab">
+                          <button class="tablinks" onclick='lineChart("#obesity","DropDown0","/obesity?filter={%22where%22:{%22and%22:[{%22Org_Code%22:814},{%22Metric_Primary%22:%22All%20persons%22},{%22Classification%22:%22FAE_Primary_Obesity%22}]}}", "/obesity?filter={%22where%22:{%22and%22:[{%22Org_Code%22:814},{%22Metric_Primary%22:%22All%20persons%22},{%22Classification%22:%22FAE_Primary_Obesity%22}]}}", "#obesityChart", "Year", "Value","Org_Name","Year", "Finished Admission Episodes with Primary Obesity",false,true,"%Y")'>FAE Primary Obesity (All gender)</button>
+                          <button class="tablinks" onclick='lineChart("#obesity","DropDown0","/obesity?filter={%22where%22:{%22and%22:[{%22Org_Code%22:814},{%22Metric_Primary%22:%22All%20persons%22},{%22Classification%22:%22FAE_PrimarySecondary_Obesity%22}]}}", "/obesity?filter={%22where%22:{%22and%22:[{%22Org_Code%22:814},{%22Metric_Primary%22:%22All%20persons%22},{%22Classification%22:%22FAE_PrimarySecondary_Obesity%22}]}}", "#obesityChart", "Year", "Value","Org_Name","Year", "Finished Admission Episodes with Primary Obesity",false,true,"%Y")'>FAE Primary and Secondary Obesity (All gender)</button>
+                        </div>
+                        <div id="obesity"></div>
+                        <svg id="obesityChart" style="padding: 20px" width="960" height="500"></svg>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>
+                    Contains public sector information licensed under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0.</a>
+                </p>
+            </div>
+
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    //$("#menu-toggle").click(function(e) {
+        //e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    //});
+
+    lineChart("#obesity","DropDown0","/obesity?filter={%22where%22:{%22and%22:[{%22Org_Code%22:814},{%22Metric_Primary%22:%22All%20persons%22},{%22Classification%22:%22FAE_Primary_Obesity%22}]}}", "/obesity?filter={%22where%22:{%22and%22:[{%22Org_Code%22:814},{%22Metric_Primary%22:%22All%20persons%22},{%22Classification%22:%22FAE_Primary_Obesity%22}]}}", "#obesityChart", "Year", "Value","Org_Name","Year", "Finished Admission Episodes with Primary Obesity",false,true,"%Y");
+    </script>
+
+    <script  type="text/javascript"  charset="utf-8">  
+        (function(w,d,t,f){  w[f]=w[f]||function(c,k,n){s=w[f],k=s['k']=(s['k']||(k?('&k='+k):''));s['c']=  
+        c=(c  instanceof  Array)?c:[c];s['n']=n=n||0;L=d.createElement(t),e=d.getElementsByTagName(t)[0];  
+        L.async=1;L.src='http://feed.aqicn.org/feed/'+(c[n].city)+'/'+(c[n].lang||'')+'/feed.v1.js?n='+n+k;  
+        e.parentNode.insertBefore(L,e);  };  })(  window,document,'script','_aqiFeed'  );    
+    </script>
+
+    
+  
+    <script  type="text/javascript"  charset="utf-8">  
+        _aqiFeed({  
+          display:"%details",
+          container:"city-aqi-container",  
+          city:"united-kingdom/southampton-centre",  
+          lang:null  
+        });  
+    </script>
+
+
+
+</body>
+
+</html>

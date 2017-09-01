@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Health Indicators Dashboard - Southampton</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- Visualization CSS -->
+    <link href="css/charts.css" rel="stylesheet">
+
+    <!-- Website CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- D3.js -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <!-- Charts -->
+    <script src="./js/drawLine.js""></script>
+    <script src="./js/BarChart.js""></script>
+    <script src="./js/scatter.js""></script>
+    <script src="./js/lineChart2.js""></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="HealthStatus.html">Health Status Indicators</a>
+                </li>
+                <li>
+                    <a href="RiskFactors.html">Risk Factors Indicators</a>
+                </li>
+                <li>
+                    <a href="ServiceCoverage.html">Service Coverage Indicators</a>
+                </li>
+                <li>
+                    <a href="HealthSystems.html">Health Systems Indicators</a>
+                </li>
+                <li>
+                    <a href="API.html">API</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12" id="Home">
+                        <h1>Health Status Indicator</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12" id="LifeExpectancy">
+                        <h2>Life Expectancy at Birth (2015)</h2>
+                        <p>Life Expectancy at birth by gender for the period 2001-2003 to 2013-2015. Estimates for lower geographies are produced for England, Wales and Scotland.</p>
+                        <h3>API URL:</h3>
+                        <pre>Male Life Expectancy: http://2d73a3b0.ngrok.io/api/v1/malele</pre>
+                        <pre>Female Life Expectancy: http://2d73a3b0.ngrok.io/api/v1/femalele</pre>
+                        <p>Data Source: <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/datasets/lifeexpectancyatbirthandatage65bylocalareasuk">Office of National Statistics</a></p>
+                        <div class="tab">
+                          <button class="tablinks" onclick='scatterPlot("#lifeextooltip","#lifeex","DropDown0","/malele","#lifeexChart","Area Names","2013-2015","UNITED KINGDOM","Southampton","Ranking (Low to High)", "Life Expectancy")'>Male</button>
+                          <button class="tablinks" onclick='scatterPlot("#lifeextooltip","#lifeex","DropDown0","/femalele","#lifeexChart","Area Names","2013-2015","UNITED KINGDOM","Southampton", "Ranking (Low to High)", "Life Expectancy")'>Female</button>
+                          <!--<button class="tablinks" onclick='nestedlineChart("#lifeex","DropDown0","/malele?filter[where][Area Names]=Southampton", "/malele", "#infantChart", "Year", "Indicator_value","Area Names","Year", "Infant Mortality Rate(%)",false,false,"%Y")'>Female</button>-->
+                        </div>
+                        <br><br>
+                        <div id="lifeex"></div>
+                        <svg id="lifeexChart" style="padding: 20px" width="960" height="500"></svg>
+                        <div id="lifeextooltip"></div>
+                        
+                    </div>
+                    <div class="col-lg-12" id="InfantMortality">
+                        <h2>Infant Mortality Rate</h2>
+                        <p>The infant mortality rate per 1,000 live births. Infant mortality covers the deaths of babies under one year old. This includes neonatal deaths (less than one month old), post neonatal deaths (one month to one year old) and excludes stillbirths. </p>
+                        <h3>API URL: </h3>
+                        <pre>Neonatal Death: http://2d73a3b0.ngrok.io/api/v1/neonataldeathstillbirth</pre>
+                        <p>Data Source: <a href="http://content.digital.nhs.uk/searchcatalogue?productid=25058&q=infant+mortality&sort=Relevance&size=10&page=1#top">NHS Digital</a></p>
+                        <div class="tab">
+                          <button class="tablinks" onclick='scatterPlot("#infanttooltip","#infant","DropDown1","/infantmortality?filter={%22where%22:{%22Year%22:2014}}","#infantChart","Level description","Indicator value","England","Southampton","Ranking (Low to High)", "Infant Mortality Rate (%)","dsc")'>Ranking</button>
+                          <button class="tablinks" onclick='lineChart("#infant","DropDown1","/infantmortality?filter[where][Level description]=Southampton", "/infantmortality", "#infantChart", "Year", "Indicator value","Level description","Year", "Infant Mortality Rate(%)",false,false,"%Y")'>Time Series</button>
+                        </div>
+                        <div id = "infant"></div>
+                        <svg id="infantChart" style="padding: 20px" width="960" height="500"></svg>
+                        <div id = "infanttooltip"></div>
+                        
+                    </div>
+                    <div class="col-lg-12" id="Neontal">
+                        <h2>Neonatal Death and Stillbirth Rate</h2>
+                        <p>The neonatal mortality and stillbirths rate per 1,000 births  </p>
+                        <h3>API URL:</h3>
+                        <pre>http://2d73a3b0.ngrok.io/api/v1/neonataldeathstillbirth</pre>
+                        <p>Data Source: <a href="http://content.digital.nhs.uk/searchcatalogue?productid=25058&q=infant+mortality&sort=Relevance&size=10&page=1#top">NHS Digital</a></p>
+                        <div class="tab">
+                          <button class="tablinks" onclick='scatterPlot("#neonataltooltip","#neonatal","DropDown2","/neonataldeathstillbirth?filter={%22where%22:{%22Year%22:2014}}","#neonatalChart","Level description","Indicator value","England","Southampton","Ranking (Low to High)", "Neonatal Death and Stillbirth Rate (%)","dsc")'>Ranking</button>
+                          <button class="tablinks" onclick='lineChart("#neonatal","DropDown2","/neonataldeathstillbirth?filter[where][Level description]=Southampton", "/neonataldeathstillbirth", "#neonatalChart", "Year", "Indicator value","Level description","Year", "Neonatal Death and Stillbirth Rate (%)",false,false,"%Y")'>Time Series</button>
+                        </div>
+                        <div id="neonatal"></div>
+                        <svg id="neonatalChart" style="padding: 20px" width="960" height="500"></svg>
+                        <div id="neonataltooltip"></div>
+                    </div>
+                    <div class="col-lg-12" id="CancerIncidence">
+                        <h2>Cancer Incidence Rate, Standardized by Age per 100000 people</h2>
+                        <p>Age-and-sex standardised cancer incidence rates. Rates can be presented for different cancer sites, different time periods, and different geographies. Standardised rates correct for the difference in incidence in cancer because of age and sex. They are useful for comparing underlying cancer risk in populations with different age/sex profiles.</p>
+                        <h3>API URL:</h3>
+                        <pre>http://2d73a3b0.ngrok.io/api/v1/cancenincidencerate</pre>
+                        <p>Data Source: <a href="https://www.cancerdata.nhs.uk/incidence/age_standardised_rates">National Cancer Registration & Analysis Service, Public Health England</a></p>
+                        <div class="tab">
+                          <button class="tablinks" onclick='scatterPlot("#cancerincidenceratetooltip","#cancerincidencerate","DropDown3","/cancerincidencerate?filter={%22where%22:{%22Year%22:2014}}","#cancerindcidenceChart","HealthGeography","AgeStandardisedRate","England","NHS Southampton","Ranking (Low to High)", "Cancer Incidence Rate, Standardized by Age(per 100000)","dsc")'>Ranking</button>
+                          <button class="tablinks" onclick='lineChart("#cancerincidencerate","DropDown3","/cancerincidencerate?filter[where][HealthGeography]=NHS%20Southampton", "/cancerincidencerate", "#cancerindcidenceChart", "Year", "AgeStandardisedRate","HealthGeography","Year", "Cancer Incidence Rate, Standardized by Age(per 100000)",false,false,"%Y")'>Time Series</button>
+                        </div>
+                        <div id="cancerincidencerate"></div>
+                        <svg id="cancerindcidenceChart" style="padding: 20px" width="960" height="500"></svg>
+                        <div id="cancerincidenceratetooltip"></div>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>
+                    Contains public sector information licensed under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0.</a>
+                </p>
+            </div>
+
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    //$("#menu-toggle").click(function(e) {
+        //e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    //});
+
+    scatterPlot("#lifeextooltip","#lifeex","DropDown0","/malele","#lifeexChart","Area Names","2013-2015","UNITED KINGDOM","Southampton","Ranking (Low to High)", "Life Expectancy");
+    scatterPlot("#infanttooltip","#infant","DropDown1","/infantmortality?filter={%22where%22:{%22Year%22:2014}}","#infantChart","Level description","Indicator value","England","Southampton","Ranking (Low to High)", "Infant Mortality Rate (%)","dsc");
+    scatterPlot("#neonataltooltip","#neonatal","DropDown2","/neonataldeathstillbirth?filter={%22where%22:{%22Year%22:2014}}","#neonatalChart","Level description","Indicator value","England","Southampton","Ranking (Low to High)", "Neonatal Death and Stillbirth Rate (%)","dsc");
+    scatterPlot("#cancerincidenceratetooltip","#cancerincidencerate","DropDown3","/cancerincidencerate?filter={%22where%22:{%22Year%22:2014}}","#cancerindcidenceChart","HealthGeography","AgeStandardisedRate","England","NHS Southampton","Ranking (Low to High)", "Cancer Incidence Rate, Standardized by Age(%)","dsc");
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>
