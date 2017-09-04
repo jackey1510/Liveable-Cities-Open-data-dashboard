@@ -71,7 +71,7 @@
                     <a href="API.html">API</a>
                 </li>
                 <li>
-                    <a href="Contact.html">Contact</a>
+                    <a href="Contact.html">Contact & Feedback</a>
                 </li>
             </ul>
         </div>
@@ -113,8 +113,8 @@
                         <pre>Neonatal Death: http://2d73a3b0.ngrok.io/api/v1/neonataldeathstillbirth</pre>
                         <p>Data Source: <a href="http://content.digital.nhs.uk/searchcatalogue?productid=25058&q=infant+mortality&sort=Relevance&size=10&page=1#top">NHS Digital</a></p>
                         <div class="tab">
-                          <button class="tablinks" onclick='scatterPlot("#infanttooltip","#infant","DropDown1","/infantmortality?filter={%22where%22:{%22Year%22:2014}}","#infantChart","Level description","Indicator value","England","Southampton","Ranking (Low to High)", "Infant Mortality Rate (%)","dsc")'>Ranking</button>
-                          <button class="tablinks" onclick='lineChart("#infant","DropDown1","/infantmortality?filter[where][Level description]=Southampton", "/infantmortality", "#infantChart", "Year", "Indicator value","Level description","Year", "Infant Mortality Rate(%)",false,false,"%Y")'>Time Series</button>
+                          <button class="tablinks" onclick='scatterPlot("#infanttooltip","#infant","DropDown1","/infantmortality?filter={%22where%22:{%22Year%22:2015}}","#infantChart","Level description","Indicator value","England","Southampton","Ranking (Low to High)", "Infant Mortality per 1000 Births","dsc")'>Ranking (2015)</button>
+                          <button class="tablinks" onclick='lineChart("#infant","DropDown1","/infantmortality?filter[where][Level description]=Southampton", "/infantmortality", "#infantChart", "Year", "Indicator value","Level description","Year", "Infant Mortality per 1000 Births",false,false,"%Y")'>Time Series</button>
                         </div>
                         <div id = "infant"></div>
                         <svg id="infantChart" style="padding: 20px" width="960" height="500"></svg>
@@ -128,22 +128,22 @@
                         <pre>http://2d73a3b0.ngrok.io/api/v1/neonataldeathstillbirth</pre>
                         <p>Data Source: <a href="http://content.digital.nhs.uk/searchcatalogue?productid=25058&q=infant+mortality&sort=Relevance&size=10&page=1#top">NHS Digital</a></p>
                         <div class="tab">
-                          <button class="tablinks" onclick='scatterPlot("#neonataltooltip","#neonatal","DropDown2","/neonataldeathstillbirth?filter={%22where%22:{%22Year%22:2014}}","#neonatalChart","Level description","Indicator value","England","Southampton","Ranking (Low to High)", "Neonatal Death and Stillbirth Rate (%)","dsc")'>Ranking</button>
-                          <button class="tablinks" onclick='lineChart("#neonatal","DropDown2","/neonataldeathstillbirth?filter[where][Level description]=Southampton", "/neonataldeathstillbirth", "#neonatalChart", "Year", "Indicator value","Level description","Year", "Neonatal Death and Stillbirth Rate (%)",false,false,"%Y")'>Time Series</button>
+                          <button class="tablinks" onclick='scatterPlot("#neonataltooltip","#neonatal","DropDown2","/neonataldeathstillbirth?filter={%22where%22:{%22Year%22:2015}}","#neonatalChart","Level description","Indicator value","England","Southampton","Ranking (Low to High)", "Neonatal Death and Stillbirth per 1000 Births","dsc")'>Ranking (2015)</button>
+                          <button class="tablinks" onclick='lineChart("#neonatal","DropDown2","/neonataldeathstillbirth?filter[where][Level description]=Southampton", "/neonataldeathstillbirth", "#neonatalChart", "Year", "Indicator value","Level description","Year", "Neonatal Death and Stillbirth per 1000 Births",false,false,"%Y")'>Time Series</button>
                         </div>
                         <div id="neonatal"></div>
                         <svg id="neonatalChart" style="padding: 20px" width="960" height="500"></svg>
                         <div id="neonataltooltip"></div>
                     </div>
                     <div class="col-lg-12" id="CancerIncidence">
-                        <h2>Cancer Incidence Rate, Standardized by Age per 100000 people</h2>
+                        <h2>Cancer Incidence Rate per 100k People, Standardized by Age</h2>
                         <p>Age-and-sex standardised cancer incidence rates. Rates can be presented for different cancer sites, different time periods, and different geographies. Standardised rates correct for the difference in incidence in cancer because of age and sex. They are useful for comparing underlying cancer risk in populations with different age/sex profiles.</p>
                         <h3>API URL:</h3>
                         <pre>http://2d73a3b0.ngrok.io/api/v1/cancenincidencerate</pre>
                         <p>Data Source: <a href="https://www.cancerdata.nhs.uk/incidence/age_standardised_rates">National Cancer Registration & Analysis Service, Public Health England</a></p>
                         <div class="tab">
-                          <button class="tablinks" onclick='scatterPlot("#cancerincidenceratetooltip","#cancerincidencerate","DropDown3","/cancerincidencerate?filter={%22where%22:{%22Year%22:2014}}","#cancerindcidenceChart","HealthGeography","AgeStandardisedRate","England","NHS Southampton","Ranking (Low to High)", "Cancer Incidence Rate, Standardized by Age(per 100000)","dsc")'>Ranking</button>
-                          <button class="tablinks" onclick='lineChart("#cancerincidencerate","DropDown3","/cancerincidencerate?filter[where][HealthGeography]=NHS%20Southampton", "/cancerincidencerate", "#cancerindcidenceChart", "Year", "AgeStandardisedRate","HealthGeography","Year", "Cancer Incidence Rate, Standardized by Age(per 100000)",false,false,"%Y")'>Time Series</button>
+                          <button class="tablinks" onclick='scatterPlot("#cancerincidenceratetooltip","#cancerincidencerate","DropDown3","/cancerincidencerate?filter={%22where%22:{%22Year%22:2014}}","#cancerindcidenceChart","HealthGeography","AgeStandardisedRate","England","NHS Southampton","Ranking (Low to High)", "Cancer Incidence Rate per 100k, Standardized by Age)","dsc")'>Ranking (2014)</button>
+                          <button class="tablinks" onclick='lineChart("#cancerincidencerate","DropDown3","/cancerincidencerate?filter[where][HealthGeography]=NHS%20Southampton", "/cancerincidencerate", "#cancerindcidenceChart", "Year", "AgeStandardisedRate","HealthGeography","Year", "Cancer Incidence Rate per 100k, Standardized by Age",false,false,"%Y")'>Time Series</button>
                         </div>
                         <div id="cancerincidencerate"></div>
                         <svg id="cancerindcidenceChart" style="padding: 20px" width="960" height="500"></svg>
@@ -153,9 +153,11 @@
                 </div>
             </div>
             <div>
-                <p>
-                    Contains public sector information licensed under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0.</a>
-                </p>
+                <footer>
+                    <p>
+                        Contains public sector information licensed under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0.</a>
+                    </p>
+                </footer>
             </div>
 
         </div>
