@@ -101,10 +101,6 @@ function scatterPlot(tooltipid,divid, dropdownid, route, id, xdomain, ydomain, s
 
            });*/
         .on("mouseover", function(d){
-          var xPosition = parseFloat(d3.event.pageX)-250;
-            var yPosition = parseFloat(d3.event.pageY)-170;
-
-            console.log(yPosition)
               tooltip
                 .style("font-size", "24px")
                 .html(ylabel + ": " + (d[ydomain]) + " " + xdomain +": " + (d[xdomain]));
@@ -139,7 +135,7 @@ function scatterPlot(tooltipid,divid, dropdownid, route, id, xdomain, ydomain, s
     g.append("line")
        .attr("x1", x(target))
        .attr("x2", x(target))
-       .attr("y1", y(d3.min(data, function(d) { return d[ydomain]; })))
+       .attr("y1", height)
        .attr("y2", y(d3.max(data, function(d) { return d[ydomain]; })))
        .attr("stroke-width",2)
        .attr("stroke", color(target));
@@ -147,7 +143,7 @@ function scatterPlot(tooltipid,divid, dropdownid, route, id, xdomain, ydomain, s
     g.append("line")
        .attr("x1", x(standard))
        .attr("x2", x(standard))
-       .attr("y1", y(d3.min(data, function(d) { return d[ydomain]; })))
+       .attr("y1", height)
        .attr("y2", y(d3.max(data, function(d) { return d[ydomain]; })))
        .attr("stroke-width",2)
        .attr("stroke", color(standard));

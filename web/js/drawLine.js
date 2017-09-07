@@ -94,8 +94,10 @@ function lineChart(divid, dropdownid,src, filter, id, xdomain, ydomain, zdomain,
     });
 
     // Sort data by year
-    console.log(data[0][xdomain].valueOf())
-    data.sort(function(a, b) { return a[xdomain] - b[xdomain]; })
+    
+    data.sort(function(a, b) { return b[xdomain] - a[xdomain]; })
+
+    console.log(data[0],data[1])
 
     
     // Scale the range of the data
@@ -166,7 +168,7 @@ function lineChart(divid, dropdownid,src, filter, id, xdomain, ydomain, zdomain,
         .style("text-anchor", "end")
         .text("Southampton");
 
-    if ((data[0][ydomain]<data[1][ydomain] && !positivetrend)||(data[0][ydomain]>data[1][ydomain] && positivetrend)){
+    if ((data[0][ydomain]< data[1][ydomain] && positivetrend)||(data[0][ydomain]>data[1][ydomain] && !positivetrend)){
 
       g.append("text")
         .attr("y", 0)
@@ -192,7 +194,7 @@ function lineChart(divid, dropdownid,src, filter, id, xdomain, ydomain, zdomain,
 
     }
 
-    if ((data[0][ydomain]>data[1][ydomain] && !positivetrend)||(data[0][ydomain]<data[1][ydomain] && positivetrend)){
+    if ((data[0][ydomain]>data[1][ydomain] && positivetrend)||(data[0][ydomain]<data[1][ydomain] && !positivetrend)){
 
       g.append("text")
         .attr("y", 0)

@@ -95,8 +95,8 @@
                         <pre>http://2d73a3b0.ngrok.io/api/v1/GPAccess</pre>
                         <p>Data Source: <a href="https://data.england.nhs.uk/dataset/nhsof-4-4-i-access-to-gp-services">NHS Digital</a></p>
                         <div class="tab">
-                          <button class="tablinks" onclick='scatterPlot("#gpaccesstooltip","#gpaccess","DropDown0","/GPAccess?filter={%22where%22:{%22Year%22:2014}}","#gpaccessChart","Level description","Indicator value","England","Southampton","Ranking (Low to High)", "GP Access rate (%)")'>Ranking (2014)</button>
-                          <button class="tablinks" onclick='lineChart("#gpaccess","DropDown0","/GPAccess?filter[where][Level description]=Southampton","/GPAccess","#gpaccessChart","Year","Indicator value","Level description","Ranking (Low to High)", "GP Access rate (%)",false,false,"%Y")'>Time Series</button>
+                          <button class="tablinks" onclick='scatterPlot("#gpaccesstooltip","#gpaccess","DropDown0","/GPAccess?filter={%22where%22:{%22Year%22:2014}}","#gpaccessChart","Level description","Indicator value","England","Southampton","Ranking (Low to High)", "GP Access Positive Response rate (%)")'>Ranking (2014)</button>
+                          <button class="tablinks" onclick='lineChart("#gpaccess","DropDown0","/GPAccess?filter[where][Level description]=Southampton","/GPAccess","#gpaccessChart","Year","Indicator value","Level description","Ranking (Low to High)", "GP Access Positive Response rate (%)",true,false,"%Y")'>Time Series</button>
                         </div>
                         <br><br>
                         <div id="gpaccess"></div>
@@ -116,8 +116,8 @@
                         <pre>http://2d73a3b0.ngrok.io/api/v1/dentalaccess</pre>
                         <p>Data Source: <a href="https://data.england.nhs.uk/dataset/nhsof-4-4-ii-access-to-nhs-dental-services">NHS Digital</a></p>
                         <div class="tab">
-                          <button class="tablinks" onclick='scatterPlot("#dentalaccesstooltip","#dentalaccess","DropDown1","/dentalaccess?filter={%22where%22:{%22Year%22:2014}}","#dentalaccessChart","Level description","Proportion of respondents who successfully obtained an NHS appointment in the last two years","England","Southampton","Ranking (Low to High)", "Dental Service Access Rate (%)")'>Ranking (2014)</button>
-                          <button class="tablinks" onclick='lineChart("#dentalaccess","DropDown1","/dentalaccess?filter[where][Level description]=Southampton","/dentalaccess","#dentalaccessChart","Year","Proportion of respondents who successfully obtained an NHS appointment in the last two years","Level description","Ranking (Low to High)", "Dental Service Access Rate (%)",false,false,"%Y")'>Time Series</button>
+                          <button class="tablinks" onclick='scatterPlot("#dentalaccesstooltip","#dentalaccess","DropDown1","/dentalaccess?filter={%22where%22:{%22Year%22:2014}}","#dentalaccessChart","Level description","Proportion of respondents who successfully obtained an NHS appointment in the last two years","England","Southampton","Ranking (Low to High)", "Dental Service Access Positive Response Rate (%)")'>Ranking (2014)</button>
+                          <button class="tablinks" onclick='lineChart("#dentalaccess","DropDown1","/dentalaccess?filter[where][Level description]=Southampton","/dentalaccess","#dentalaccessChart","Year","Proportion of respondents who successfully obtained an NHS appointment in the last two years","Level description","Ranking (Low to High)", "Dental Service Access Positive Response Rate (%)",true,false,"%Y")'>Time Series</button>
                         </div>
                         <br><br>
                         <div id="dentalaccess"></div>
@@ -155,8 +155,8 @@
         //e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     //});
-    scatterPlot("#gpaccesstooltip","#gpaccess","DropDown0","/GPAccess?filter={%22where%22:{%22Year%22:2014}}","#gpaccessChart","Level description","Indicator value","England","Southampton","Ranking (Low to High)", "GP Access rate (%)");
-    scatterPlot("#dentalaccesstooltip","#dentalaccess","DropDown1","/dentalaccess?filter={%22where%22:{%22Year%22:2014}}","#dentalaccessChart","Level description","Proportion of respondents who successfully obtained an NHS appointment in the last two years","England","Southampton","Ranking (Low to High)", "Dental Service Access Rate (%)");
+    scatterPlot("#gpaccesstooltip","#gpaccess","DropDown0","/GPAccess?filter={%22where%22:{%22Year%22:2014}}","#gpaccessChart","Level description","Indicator value","England","Southampton","Ranking (Low to High)", "GP Access Positive Response rate (%)");
+    scatterPlot("#dentalaccesstooltip","#dentalaccess","DropDown1","/dentalaccess?filter={%22where%22:{%22Year%22:2014}}","#dentalaccessChart","Level description","Proportion of respondents who successfully obtained an NHS appointment in the last two years","England","Southampton","Ranking (Low to High)", "Dental Service Access Positive Response Rate (%)");
 
 
 

@@ -98,15 +98,18 @@
                           <button class="tablinks" onclick='scatterPlot("#cervicalcoveragetooltip","#cervicalcoverage","DropDown0","/cervicalcoverage?filter=%7B%22where%22%3A%7B%22and%22%3A%5B%7B%22Age%22%3A%2225_49%22%7D%2C%7B%22Year%22%3A%2201/07/2016%22%7D%5D%7D%7D","#cervicalcoverageChart","Upper Tier Authority","Coverage","Northamptonshire","Southampton","Ranking (Low to High)", "Cervical Screening Coverage (%)")'>Ranking (2016)</button>
                           <button class="tablinks" onclick='lineChart("#cervicalcoverage","DropDown0","/cervicalcoverage?filter={%22where%22:{%22and%22:[{%22Upper%20Tier%20Authority%22:%22Southampton%22},{%22Age%22:%2225_49%22}]}}","/cervicalcoverage?filter={%22where%22:{%22Age%22:%2225_49%22}}","#cervicalcoverageChart","Year","Coverage","Upper Tier Authority","Ranking (Low to High)", "Cervical Screening Coverage (%)",true,false,"%d/%m/%Y","/cervicalcoverage?filter[where][and][0][Age]=25_49&filter[where][and][1][Upper Tier Authority]=")'>Time Series</button>
                         </div>
-                        <h3>Age 50 to 64</h3>
-                        <div class="tab">
-                          <button class="tablinks" onclick='scatterPlot("#cervicalcoveragetooltip","#cervicalcoverage","DropDown0","/cervicalcoverage?filter=%7B%22where%22%3A%7B%22and%22%3A%5B%7B%22Age%22%3A%2250_64%22%7D%2C%7B%22Year%22%3A%2201/07/2016%22%7D%5D%7D%7D","#cervicalcoverageChart","Upper Tier Authority","Coverage","Milton Keynes","Southampton","Ranking (Low to High)", "Cervical Screening Coverage (%)")'>Ranking (2016)</button>
-                          <button class="tablinks" onclick='lineChart("#cervicalcoverage","DropDown0","/cervicalcoverage?filter={%22where%22:{%22and%22:[{%22Upper%20Tier%20Authority%22:%22Southampton%22},{%22Age%22:%2250_64%22}]}}","/cervicalcoverage?filter={%22where%22:{%22Age%22:%2250_64%22}}","#cervicalcoverageChart","Year","Coverage","Upper Tier Authority","Ranking (Low to High)", "Cervical Screening Coverage (%)",true,false,"%d/%m/%Y","/cervicalcoverage?filter[where][and][0][Age]=50_64&filter[where][and][1][Upper Tier Authority]=")'>Time Series</button>
-                        </div>
-                        <br><br>
                         <div id="cervicalcoverage"></div>
                         <svg id="cervicalcoverageChart" style="padding: 20px" width="960" height="500"></svg>
                         <div id="cervicalcoveragetooltip"></div>
+                        <h3>Age 50 to 64</h3>
+                        <div class="tab">
+                          <button class="tablinks" onclick='scatterPlot("#cervicalcoveragetooltip2","#cervicalcoverage2","DropDown1","/cervicalcoverage?filter=%7B%22where%22%3A%7B%22and%22%3A%5B%7B%22Age%22%3A%2250_64%22%7D%2C%7B%22Year%22%3A%2201/07/2016%22%7D%5D%7D%7D","#cervicalcoverageChart2","Upper Tier Authority","Coverage","Milton Keynes","Southampton","Ranking (Low to High)", "Cervical Screening Coverage (%)")'>Ranking (2016)</button>
+                          <button class="tablinks" onclick='lineChart("#cervicalcoverage2","DropDown1","/cervicalcoverage?filter={%22where%22:{%22and%22:[{%22Upper%20Tier%20Authority%22:%22Southampton%22},{%22Age%22:%2250_64%22}]}}","/cervicalcoverage?filter={%22where%22:{%22Age%22:%2250_64%22}}","#cervicalcoverageChart2","Year","Coverage","Upper Tier Authority","Ranking (Low to High)", "Cervical Screening Coverage (%)",true,false,"%d/%m/%Y","/cervicalcoverage?filter[where][and][0][Age]=50_64&filter[where][and][1][Upper Tier Authority]=")'>Time Series</button>
+                        </div>
+                        <br><br>
+                        <div id="cervicalcoverage2"></div>
+                        <svg id="cervicalcoverageChart2" style="padding: 20px" width="960" height="500"></svg>
+                        <div id="cervicalcoveragetooltip2"></div>
                         <br><br>
                     </div>
                     
@@ -138,7 +141,7 @@
     //});
 
     scatterPlot("#cervicalcoveragetooltip","#cervicalcoverage","DropDown0","/cervicalcoverage?filter=%7B%22where%22%3A%7B%22and%22%3A%5B%7B%22Age%22%3A%2225_49%22%7D%2C%7B%22Year%22%3A%2201/07/2016%22%7D%5D%7D%7D","#cervicalcoverageChart","Upper Tier Authority","Coverage","Northamptonshire","Southampton","Ranking (Low to High)", "Cervical Screening Coverage (%)");
-    scatterPlot("#cervicalcoveragetooltip","#cervicalcoverage","DropDown0","/cervicalcoverage?filter=%7B%22where%22%3A%7B%22and%22%3A%5B%7B%22Age%22%3A%2250_64%22%7D%2C%7B%22Year%22%3A%2201/07/2016%22%7D%5D%7D%7D","#cervicalcoverageChart","Upper Tier Authority","Coverage","Milton Keynes","Southampton","Ranking (Low to High)", "Cervical Screening Coverage (%)");
+    scatterPlot("#cervicalcoveragetooltip2","#cervicalcoverage2","DropDown1","/cervicalcoverage?filter=%7B%22where%22%3A%7B%22and%22%3A%5B%7B%22Age%22%3A%2250_64%22%7D%2C%7B%22Year%22%3A%2201/07/2016%22%7D%5D%7D%7D","#cervicalcoverageChart2","Upper Tier Authority","Coverage","Milton Keynes","Southampton","Ranking (Low to High)", "Cervical Screening Coverage (%)")
     </script>
 
 
